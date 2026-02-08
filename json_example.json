@@ -1,0 +1,14 @@
+{
+  "name": "Ivan",
+  "age": 30,
+  "is_teacher": true,
+  "courses": [
+    "Python",
+    "JS/TS",
+    "API"
+  ],
+  "skills": {
+    "JS": "middle",
+    "API": "senior"
+  }
+}
