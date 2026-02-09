@@ -1,0 +1,20 @@
+import asyncio
+
+import websockets
+from websockets import ServerConnection
+
+async def user_echo(websocket: ServerConnection):
+    async for message in websocket:
+        print(f'Получено сообщение от пользователя: {message}')
+        response = f'Сервер получил ваше сообщение: {message}'
+
+        for _ in range(5):
+            await websocket.send(response)
+
+async def main():
+    server = await websockets.serve(user_echo, 'localhost', 8765)
+    print('Сервер запущен по адресу ws://localhost:8765')
+    await server.wait_closed()
+
+if __name__ == "__main__":
+    asyncio.run(main())
