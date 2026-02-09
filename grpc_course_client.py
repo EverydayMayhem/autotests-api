@@ -9,4 +9,3 @@ stub = course_service_pb2_grpc.CourseServiceStub(channel)
 
 response = stub.GetCourse(course_service_pb2.GetCourseRequest(course_id='autotests grpc API'))
 print(response)
-
