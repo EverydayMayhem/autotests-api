@@ -1,8 +1,8 @@
 import httpx
 
-# response = httpx.get('https://jsonplaceholder.typicode.com/todos/1')
-# print(response.status_code)
-# print(response.json())
+# response_create = httpx.get('https://jsonplaceholder.typicode.com/todos/1')
+# print(response_create.status_code)
+# print(response_create.json())
 
 # data = {
 #     "title": "Новая задача",
@@ -10,35 +10,35 @@ import httpx
 #     "userId": 1
 # }
 #
-# response = httpx.post('https://jsonplaceholder.typicode.com/todos', json=data)
+# response_create = httpx.post('https://jsonplaceholder.typicode.com/todos', json=data)
 #
-# print(response.status_code)
-# print(response.json())
+# print(response_create.status_code)
+# print(response_create.json())
 #
 # data = {
 #     "username": "test",
 #     "password": "1234"
 # }
-# response = httpx.post('https://httpbin.org/post', data=data)
+# response_create = httpx.post('https://httpbin.org/post', data=data)
 #
-# print(response.status_code)
-# print(response.json())
+# print(response_create.status_code)
+# print(response_create.json())
 #
 # headers = {"Authorization": "Bearer mytoken"}
-# response = httpx.get('https://httpbin.org/get', headers=headers)
+# response_create = httpx.get('https://httpbin.org/get', headers=headers)
 #
-# print(response.request.headers)
-# print(response.json())
+# print(response_create.request.headers)
+# print(response_create.json())
 #
 # params = {"userId": 1}
-# response = httpx.get('https://jsonplaceholder.typicode.com/todos', params=params)
-# print(response.url)
-# print(response.json())
+# response_create = httpx.get('https://jsonplaceholder.typicode.com/todos', params=params)
+# print(response_create.url)
+# print(response_create.json())
 #
 # files = {"file": ("example.txt", open("example.txt", "rb"))}
-# response = httpx.post("https://httpbin.org/post", files=files)
+# response_create = httpx.post("https://httpbin.org/post", files=files)
 #
-# print(response.json())
+# print(response_create.json())
 #
 # with httpx.Client() as client:
 #     response1 = client.get("https://jsonplaceholder.typicode.com/todos/1")
@@ -48,9 +48,9 @@ import httpx
 # print(response2.json())
 #
 # client = httpx.Client(headers = headers)
-# response = client.get('https://httpbin.org/get')
+# response_create = client.get('https://httpbin.org/get')
 #
-# print(response.json())
+# print(response_create.json())
 
 try:
     response = httpx.get('https://jsonplaceholder.typicode.com/invalid')
