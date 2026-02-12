@@ -3,6 +3,21 @@ from typing import TypedDict
 from clients.api_client import APIClient
 from clients.private_http_builder import AuthenticationUserDict, get_private_http_client
 
+class User(TypedDict):
+    """
+    Описание структуры пользователя
+    """
+    id: str
+    email: str
+    lastName: str
+    firstName: str
+    middleName: str
+
+class GetUserResponse(TypedDict):
+    """
+    Описание ответа на получение пользователя
+    """
+    user: User
 
 class UpdateUserRequestDict(TypedDict):
     """
@@ -55,8 +70,16 @@ class PrivateUsersClient(APIClient):
         """
         return self.delete(url=f'/api/v1/users/{user_id}')
 
+    def get_user(self, user_id: str) -> GetUserResponse:
+        """
+        Метод получения тела ответа get_user_api
+        :param user_id: идентификатор пользователя
+        :return: возвращает объект GetUserResponseDict
+        """
+        response = self.get_user_api(user_id)
+        return response.json()
 
-def get_courses_client(user: AuthenticationUserDict) -> PrivateUsersClient:
+def get_private_users_client(user: AuthenticationUserDict) -> PrivateUsersClient:
     """
     Метод создает http-client с авторизационными заголовками
     :param user: объект типа AuthenticationUserDict с обязательными email и password

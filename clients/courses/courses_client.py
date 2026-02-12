@@ -2,7 +2,9 @@ from clients.api_client import APIClient
 from httpx import Response, URL
 from typing import TypedDict
 
+from clients.files.files_client import File
 from clients.private_http_builder import get_private_http_client, AuthenticationUserDict
+from clients.users.private_users_client import User
 
 
 class GetCoursesQueryDict(TypedDict):
@@ -11,6 +13,24 @@ class GetCoursesQueryDict(TypedDict):
     """
     userId: str
 
+class Course(TypedDict):
+    """
+    Описание структуры курса
+    """
+    id: str
+    title: str
+    maxScore: int
+    minScore: int
+    description: str
+    previewFile: File
+    estimatedTime: str
+    createdByUser: User
+
+class GetCourseResponse(TypedDict):
+    """
+    Описание ответа создания курса
+    """
+    course: Course
 
 class CreateCourseRequestDict(TypedDict):
     """
@@ -88,6 +108,14 @@ class CoursesClient(APIClient):
         """
         return self.delete(f'/api/v1/courses/{course_id}')
 
+    def create_course(self, request: CreateCourseRequestDict) -> GetCourseResponse:
+        """
+        Обертка над create_course_api для возвращения json
+        :param request: CreateCourseRequestDict
+        :return: GetCourseResponse
+        """
+        response = self.create_course_api(request)
+        return response.json()
 
 def get_courses_client(user: AuthenticationUserDict) -> CoursesClient:
     """

@@ -91,7 +91,7 @@ class ExercisesClient(APIClient):
         return self.delete(f'/api/v1/exercises/{exercise_id}')
 
 
-def get_courses_client(user: AuthenticationUserDict) -> ExercisesClient:
+def get_exercises_client(user: AuthenticationUserDict) -> ExercisesClient:
     """
     Метод создает http-client с авторизационными заголовками
     :param user: объект типа AuthenticationUserDict с обязательными email и password
