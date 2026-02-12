@@ -2,6 +2,8 @@ from clients.api_client import APIClient
 from httpx import Response
 from typing import TypedDict
 
+from clients.private_http_builder import AuthenticationUserDict, get_private_http_client
+
 
 class GetExerciseQueryDict(TypedDict):
     """
@@ -87,3 +89,12 @@ class ExercisesClient(APIClient):
         :return: возвращает объект типа httpx.Response
         """
         return self.delete(f'/api/v1/exercises/{exercise_id}')
+
+
+def get_courses_client(user: AuthenticationUserDict) -> ExercisesClient:
+    """
+    Метод создает http-client с авторизационными заголовками
+    :param user: объект типа AuthenticationUserDict с обязательными email и password
+    :return: объект класса ExercisesClient
+    """
+    return ExercisesClient(client=get_private_http_client(user))

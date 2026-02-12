@@ -1,6 +1,7 @@
 from httpx import Response
 from typing import TypedDict
 from clients.api_client import APIClient
+from clients.private_http_builder import AuthenticationUserDict, get_private_http_client
 
 
 class UpdateUserRequestDict(TypedDict):
@@ -12,10 +13,12 @@ class UpdateUserRequestDict(TypedDict):
     firstName: str | None
     middleName: str | None
 
+
 class PrivateUsersClient(APIClient):
     """
     Класс для работы с приватными эндпоинтами /api/v1/users/
     """
+
     def get_user_me_api(self) -> Response:
         """
         Метод получения текущего пользователя.
@@ -51,3 +54,12 @@ class PrivateUsersClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.delete(url=f'/api/v1/users/{user_id}')
+
+
+def get_courses_client(user: AuthenticationUserDict) -> PrivateUsersClient:
+    """
+    Метод создает http-client с авторизационными заголовками
+    :param user: объект типа AuthenticationUserDict с обязательными email и password
+    :return: объект класса PrivateUsersClient
+    """
+    return PrivateUsersClient(client=get_private_http_client(user))
