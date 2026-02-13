@@ -5,6 +5,34 @@ from typing import TypedDict
 from clients.private_http_builder import AuthenticationUserDict, get_private_http_client
 
 
+class Exercise(TypedDict):
+    """
+    Описание структуры Занятий
+    """
+    id: str
+    title: str
+    courseId: str
+    maxScore: int
+    minScore: int
+    orderIndex: int
+    description: str
+    estimatedTime: str
+
+
+class GetExercisesResponse(TypedDict):
+    """
+    Описание структуры ответа на получение всех занятий
+    """
+    exercise: list[Exercise]
+
+
+class GetExerciseResponse(TypedDict):
+    """
+    Описание структуры на получение занятия по ид
+    """
+    exercise: Exercise
+
+
 class GetExerciseQueryDict(TypedDict):
     """
     Структура query-параметров для получения всех занятий по курсу
@@ -90,6 +118,42 @@ class ExercisesClient(APIClient):
         """
         return self.delete(f'/api/v1/exercises/{exercise_id}')
 
+    def get_exercises(self, query: GetExerciseQueryDict) -> GetExercisesResponse:
+        """
+        Метод-обертка над get_exercises_api для получения json - получение всех занятий
+        :param query: GetExerciseQueryDict
+        :return: объект GetExercisesResponse
+        """
+        response = self.get_exercises_api(query)
+        return response.json()
+
+    def get_exercise(self, exercise_id: str) -> GetExerciseResponse:
+        """
+        Метод-обертка для получения json занятия по ид
+        :param exercise_id: идентификатор занятия
+        :return: объект GetExerciseResponse
+        """
+        response = self.get_exercise_api(exercise_id)
+        return response.json()
+
+    def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestDict) -> GetExerciseResponse:
+        """
+        Метод-обертка для получения json обновленного занятия по ид
+        :param exercise_id: идентификатор занятия
+        :param request: объект UpdateExerciseRequestDict
+        :return: объект GetExerciseResponse
+        """
+        response = self.update_exercise_api(exercise_id, request)
+        return response.json()
+
+    def create_exercise(self, request: CreateExerciseRequestDict) -> GetExerciseResponse:
+        """
+        Метод-обертка для получения json создания занятия
+        :param request: объект CreateExerciseRequestDict
+        :return: объект GetExerciseResponse
+        """
+        response = self.create_exercise_api(request)
+        return response.json()
 
 def get_exercises_client(user: AuthenticationUserDict) -> ExercisesClient:
     """
