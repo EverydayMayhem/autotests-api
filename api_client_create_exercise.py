@@ -1,31 +1,35 @@
-from clients.courses.courses_client import get_courses_client, CreateCourseRequestDict
-from clients.exercises.exercises_client import get_exercises_client, CreateExerciseRequestDict
-from clients.files.files_client import get_files_client, CreateFileRequestDict
-from clients.private_http_builder import AuthenticationUserDict
-from clients.users.public_users_client import get_public_users_client, UserRequestDict
+from clients.courses.courses_client import get_courses_client
+from clients.courses.courses_model import CreateCourseRequestSchema
+from clients.exercises.exercises_client import get_exercises_client
+from clients.exercises.exercises_model import CreateExerciseRequestSchema
+from clients.files.files_client import get_files_client
+from clients.files.files_model import CreateFileRequestSchema
+from clients.private_http_builder import AuthenticationUserSchema
+from clients.users.public_users_client import get_public_users_client
+from clients.users.users_model import CreateUserRequestSchema
 from tools.fakers import get_random_email
 
 public_user_client = get_public_users_client()
 
-user_request = UserRequestDict(
+create_user_request = CreateUserRequestSchema(
     email=get_random_email(),
-    password='string',
-    lastName='string',
-    firstName='string',
-    middleName='string',
+    password="string",
+    last_name="string",
+    first_name="string",
+    middle_name="string"
 )
-create_user_response = public_user_client.create_user(user_request)
+create_user_response = public_user_client.create_user(create_user_request)
 print('Create user data:', create_user_response)
 
-user = AuthenticationUserDict(
-    email='user@example.com',
-    password='password'
+auth_user = AuthenticationUserSchema(
+    email=create_user_request.email,
+    password=create_user_request.password
 )
-files_client = get_files_client(user)
-course_client = get_courses_client(user)
-exercise_client = get_exercises_client(user)
+files_client = get_files_client(auth_user)
+course_client = get_courses_client(auth_user)
+exercise_client = get_exercises_client(auth_user)
 
-file_request = CreateFileRequestDict(
+file_request = CreateFileRequestSchema(
     filename='cat.jpg',
     directory='images',
     upload_file='./testdata/files/cat.jpg'
@@ -33,26 +37,26 @@ file_request = CreateFileRequestDict(
 create_file_response = files_client.create_file(file_request)
 print('Create file data:', create_file_response)
 
-course_request = CreateCourseRequestDict(
-    title='AQA Python',
-    maxScore=100,
-    minScore=60,
-    description='Базовый курс автотестирования на Python',
-    estimatedTime='3 месяца',
-    previewFileId=create_file_response['file']['id'],
-    createdByUserId=create_user_response['user']['id']
+create_course_request = CreateCourseRequestSchema(
+    title='Python',
+    max_score=100,
+    min_score=10,
+    description='Python course',
+    estimated_time='2 weeks',
+    preview_file_id=create_file_response.file.id,
+    created_by_user_id=create_user_response.user.id
 )
-create_course_response = course_client.create_course(course_request)
+create_course_response = course_client.create_course(create_course_request)
 print('Create course data:', create_course_response)
 
-exercise_request = CreateExerciseRequestDict(
+create_exercise_request = CreateExerciseRequestSchema(
     title='0.Введение в Python',
-    courseId=create_course_response['course']['id'],
-    maxScore=100,
-    minScore=80,
-    orderIndex=0,
+    course_id=create_course_response.course.id,
+    max_score=100,
+    min_score=80,
+    order_index=0,
     description='Знакомимся с основами Python',
-    estimatedTime='2 часа'
+    estimated_time='2 часа'
 )
-exercise_response = exercise_client.create_exercise(exercise_request)
+exercise_response = exercise_client.create_exercise(create_exercise_request)
 print('Create exercise data', exercise_response)

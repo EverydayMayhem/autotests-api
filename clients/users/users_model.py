@@ -18,7 +18,7 @@ class CreateUserRequestSchema(BaseModel):
     """
     Модель для описания запроса на создание пользователя
     """
-    model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True, )
+    model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
 
     email: EmailStr
     password: str
@@ -27,4 +27,24 @@ class CreateUserRequestSchema(BaseModel):
     middle_name: str
 
 class CreateUserResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на создание пользователя
+    """
+    user: UserSchema
+
+class UpdateUserRequestSchema(BaseModel):
+    """
+    Описание структуры request для patch_user_api
+    """
+    model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
+
+    email: EmailStr | None
+    last_name: str | None
+    first_name: str | None
+    middle_name: str | None
+
+class GetUserResponseSchema(BaseModel):
+    """
+    Описание ответа на получение пользователя
+    """
     user: UserSchema
