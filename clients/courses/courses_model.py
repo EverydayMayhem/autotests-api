@@ -3,6 +3,8 @@ from pydantic.alias_generators import to_camel
 from clients.files.files_model import FileSchema
 from clients.users.users_model import UserSchema
 
+from tools.fakers import fake
+
 class GetCoursesQuerySchema(BaseModel):
     """
     Описание структуры запроса на получение списка курсов.
@@ -48,11 +50,11 @@ class CreateCourseRequestSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True, alias_generator=to_camel)
 
-    title: str
-    max_score: int = Field(default=0)
-    min_score: int = Field(default=0)
-    description: str
-    estimated_time: str
+    title: str = Field(default_factory=fake.sentence)
+    max_score: int = Field(default_factory=fake.max_score)
+    min_score: int = Field(default_factory=fake.min_score)
+    description: str = Field(default_factory=fake.text)
+    estimated_time: str = Field(default_factory=fake.estimated_time)
     preview_file_id: str
     created_by_user_id: str
 
@@ -63,8 +65,8 @@ class UpdateCourseRequestSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True, alias_generator=to_camel)
 
-    title: str | None
-    max_score: int | None = Field(default=0)
-    min_score: int | None = Field(default=0)
-    description: str | None
-    estimated_time: str | None
+    title: str | None = Field(default_factory=fake.sentence)
+    max_score: int | None = Field(default_factory=fake.max_score)
+    min_score: int | None = Field(default_factory=fake.min_score)
+    description: str | None = Field(default_factory=fake.text)
+    estimated_time: str | None = Field(default_factory=fake.estimated_time)

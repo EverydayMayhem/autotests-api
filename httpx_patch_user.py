@@ -1,9 +1,9 @@
 import httpx
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 base_url = 'http://localhost:8000/api/v1'
 payload_create = {
-  "email": get_random_email(),
+  "email": fake.email(),
   "password": "string",
   "lastName": "string",
   "firstName": "string",
@@ -28,7 +28,7 @@ print(f'Status code = {response_login.status_code}')
 user_id = response_create_body['user']['id']
 headers = {'Authorization':f'Bearer {response_login_body['token']['accessToken']}'}
 patch_body = {
-  "email": get_random_email(),
+  "email": fake.email(),
   "lastName": "string",
   "firstName": "string",
   "middleName": "string"

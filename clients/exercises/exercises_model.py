@@ -1,6 +1,8 @@
 from pydantic import BaseModel, ConfigDict, Field
 from pydantic.alias_generators import to_camel
 
+from tools.fakers import fake
+
 class ExerciseSchema(BaseModel):
     """
     Описание структуры Занятий
@@ -51,13 +53,13 @@ class CreateExerciseRequestSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True, alias_generator=to_camel)
 
-    title: str
+    title: str = Field(default_factory=fake.sentence)
     course_id: str
-    max_score: int = Field(default=0)
-    min_score: int = Field(default=0)
-    order_index: int
-    description: str
-    estimated_time: str
+    max_score: int = Field(default_factory=fake.max_score)
+    min_score: int = Field(default_factory=fake.min_score)
+    order_index: int = Field(default_factory=fake.integer)
+    description: str = Field(default_factory=fake.text)
+    estimated_time: str = Field(default_factory=fake.estimated_time)
 
 
 class UpdateExerciseRequestSchema(BaseModel):
@@ -66,9 +68,9 @@ class UpdateExerciseRequestSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True, alias_generator=to_camel)
 
-    title: str | None
-    max_score: int | None = Field(default=0)
-    min_score: int | None = Field(default=0)
-    order_index: int | None
-    description: str | None
-    estimated_time: str | None
+    title: str | None = Field(default_factory=fake.sentence)
+    max_score: int | None = Field(default_factory=fake.max_score)
+    min_score: int | None = Field(default_factory=fake.min_score)
+    order_index: int | None = Field(default_factory=fake.integer)
+    description: str | None = Field(default_factory=fake.text)
+    estimated_time: str | None = Field(default_factory=fake.estimated_time)

@@ -1,9 +1,9 @@
 import httpx
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 base_url = 'http://localhost:8000/api/v1'
 payload_create = {
-  "email": get_random_email(),
+  "email": fake.email(),
   "password": "string",
   "lastName": "string",
   "firstName": "string",
