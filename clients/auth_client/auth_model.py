@@ -1,11 +1,11 @@
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, EmailStr
 from pydantic.alias_generators import to_camel
 
 class LoginRequestSchema(BaseModel):
     """
     Описание структуры запроса на аутентификацию
     """
-    email: str
+    email: EmailStr
     password: str
 
 
