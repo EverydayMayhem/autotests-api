@@ -1,4 +1,5 @@
 from http import HTTPStatus
+import pytest
 
 from clients.auth_client.auth_client import get_auth_client
 from clients.auth_client.auth_model import LoginRequestSchema, LoginResponseSchema
@@ -9,7 +10,8 @@ from tools.assertions.base import assert_status_code
 from tools.assertions.authentication import assert_login_response
 from tools.assertions.validate_json_schema import validate_json_schema
 
-
+@pytest.mark.regression
+@pytest.mark.auth
 def test_login():
     auth_client = get_auth_client()
     user_client = get_public_users_client()
