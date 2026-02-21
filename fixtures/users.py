@@ -1,8 +1,7 @@
 import pytest
-
 from pydantic import BaseModel, EmailStr
 
-from clients.auth_client.auth_client import get_auth_client, AuthClient
+from clients.users.private_users_client import PrivateUsersClient, AuthenticationUserSchema, get_private_users_client
 from clients.users.public_users_client import get_public_users_client, PublicUsersClient
 from clients.users.users_model import CreateUserRequestSchema, CreateUserResponseSchema
 
@@ -10,6 +9,14 @@ from clients.users.users_model import CreateUserRequestSchema, CreateUserRespons
 class UserFixture(BaseModel):
     request: CreateUserRequestSchema
     response: CreateUserResponseSchema
+
+    @property
+    def authentication_user(self) -> AuthenticationUserSchema:
+        """
+        Данные для авторизации пользователя в виде AuthenticationUserSchema
+        :return:
+        """
+        return AuthenticationUserSchema(email=self.email, password=self.password)
 
     @property
     def email(self) -> EmailStr:
@@ -24,9 +31,12 @@ class UserFixture(BaseModel):
 def public_user_client() -> PublicUsersClient:
     return get_public_users_client()
 
+
 @pytest.fixture
-def public_auth_client() -> AuthClient:
-    return get_auth_client()
+def private_user_client(function_user: UserFixture) -> PrivateUsersClient:
+    private_client = get_private_users_client(function_user.authentication_user)
+    return private_client
+
 
 @pytest.fixture
 def function_user(public_user_client: PublicUsersClient) -> UserFixture:

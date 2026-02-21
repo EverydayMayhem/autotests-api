@@ -26,7 +26,7 @@ class CreateUserRequestSchema(BaseModel):
     first_name: str = Field(default_factory=fake.first_name)
     middle_name: str = Field(default_factory=fake.middle_name)
 
-class CreateUserResponseSchema(BaseModel):
+class  CreateUserResponseSchema(BaseModel):
     """
     Описание структуры ответа на создание пользователя
     """

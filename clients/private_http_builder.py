@@ -24,7 +24,7 @@ def get_private_http_client(user: AuthenticationUserSchema) -> Client:
     auth_client = get_auth_client()
 
     # Инициализируем запрос на аутентификацию
-    login_request = LoginRequestSchema(email=str(user.email), password=user.password)
+    login_request = LoginRequestSchema(email=user.email, password=user.password)
 
     # Выполняем POST запрос и аутентифицируемся
     login_response = auth_client.login(login_request)
