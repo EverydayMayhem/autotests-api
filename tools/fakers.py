@@ -9,7 +9,7 @@ class Fake:
     def __init__(self, faker: Faker):
         self.faker = faker
 
-    def email(self, domain: str = None):
+    def email(self, domain: str | None = None):
         """
         Генерация случайного email
         :return:
