@@ -2,7 +2,7 @@ from clients.api_client import APIClient
 from httpx import Response
 
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
-from clients.files.files_model import CreateFileResponseSchema, CreateFileRequestSchema
+from clients.files.files_model import CreateFileResponseSchema, CreateFileRequestSchema, GetFileResponseSchema
 
 
 class FilesClient(APIClient):
@@ -49,6 +49,16 @@ class FilesClient(APIClient):
         """
         response = self.create_file_api(request)
         return CreateFileResponseSchema.model_validate_json(response.text)
+
+    def get_file(self, file_id: str) -> GetFileResponseSchema:
+        """
+        Обертка для получения файла
+        :param file_id: файл ид
+        :return: GetFileResponseSchema
+        """
+        response = self.get_file_api(file_id)
+        return GetFileResponseSchema.model_validate_json(response.text)
+
 
 def get_files_client(user: AuthenticationUserSchema) -> FilesClient:
     """

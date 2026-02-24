@@ -15,11 +15,11 @@ class FileFixture(BaseModel):
         return self.response.file.id
 
 @pytest.fixture
-def private_files_client(function_user: UserFixture) -> FilesClient:
+def files_client(function_user: UserFixture) -> FilesClient:
     return get_files_client(function_user.authentication_user)
 
 @pytest.fixture
-def function_file(private_files_client: FilesClient) -> FileFixture:
+def function_file(files_client: FilesClient) -> FileFixture:
     request = CreateFileRequestSchema(upload_file='./testdata/files/cat.jpg')
-    response = private_files_client.create_file(request)
+    response = files_client.create_file(request)
     return FileFixture(request=request, response=response)
