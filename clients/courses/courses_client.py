@@ -39,7 +39,7 @@ class CoursesClient(APIClient):
         """
         return self.post('/api/v1/courses', json=request.model_dump(by_alias=True))
 
-    def update_course_api(self, request: UpdateCourseRequestSchema) -> Response:
+    def update_course_api(self, course_id: str, request: UpdateCourseRequestSchema) -> Response:
         """
         Метод обновления курса.
 
@@ -47,7 +47,7 @@ class CoursesClient(APIClient):
         :param request: Словарь с title, maxScore, minScore, description, estimatedTime.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.patch('/api/v1/courses', json=request.model_dump(by_alias=True))
+        return self.patch(f'/api/v1/courses/{course_id}', json=request.model_dump(by_alias=True))
 
     def delete_course_api(self, course_id: str) -> Response:
         """

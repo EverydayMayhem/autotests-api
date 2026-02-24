@@ -70,3 +70,15 @@ class UpdateCourseRequestSchema(BaseModel):
     min_score: int | None = Field(default_factory=fake.min_score)
     description: str | None = Field(default_factory=fake.text)
     estimated_time: str | None = Field(default_factory=fake.estimated_time)
+
+class UpdateCourseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на обновление курса
+    """
+    course: CourseSchema
+
+class GetCoursesResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на получение списка курсов.
+    """
+    courses: list[CourseSchema]
