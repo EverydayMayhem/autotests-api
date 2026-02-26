@@ -1,4 +1,4 @@
-from clients.errors_schema import ValidationErrorResponseSchema, ValidationErrorSchema
+from clients.errors_schema import ValidationErrorResponseSchema, ValidationErrorSchema, InternalErrorResponseSchema
 from tools.assertions.base import assert_equals
 
 from clients.files.files_model import CreateFileRequestSchema, CreateFileResponseSchema, FileSchema, \
@@ -101,3 +101,28 @@ def assert_get_file_with_incorrect_file_id_response(actual: ValidationErrorRespo
         ]
     )
     assert_validation_error_response(actual, expected)
+
+def assert_internal_error_response(
+        actual: InternalErrorResponseSchema,
+        expected: InternalErrorResponseSchema
+):
+    """
+    Функция для проверки внутренней ошибки. Например, ошибки 404 (File not found).
+
+    :param actual: Фактический ответ API.
+    :param expected: Ожидаемый ответ API.
+    :raises AssertionError: Если значения полей не совпадают.
+    """
+    assert_equals(actual.details, expected.details, "details")
+
+def assert_file_not_found_response(actual: InternalErrorResponseSchema):
+    """
+    Функция для проверки ошибки, если файл не найден на сервере.
+
+    :param actual: Фактический ответ.
+    :raises AssertionError: Если фактический ответ не соответствует ошибке "File not found"
+    """
+    # Ожидаемое сообщение об ошибке, если файл не найден
+    expected = InternalErrorResponseSchema(detail="File not found")
+    # Используем ранее созданную функцию для проверки внутренней ошибки
+    assert_internal_error_response(actual, expected)
