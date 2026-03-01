@@ -1,5 +1,6 @@
 from httpx import Response
 
+import allure
 from clients.api_client import APIClient
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 from clients.users.users_model import GetUserResponseSchema, UpdateUserRequestSchema
@@ -10,6 +11,7 @@ class PrivateUsersClient(APIClient):
     Класс для работы с приватными эндпоинтами /api/v1/users/
     """
 
+    @allure.step("Get user me")
     def get_user_me_api(self) -> Response:
         """
         Метод получения текущего пользователя.
@@ -18,6 +20,7 @@ class PrivateUsersClient(APIClient):
         """
         return self.get(url='/api/v1/users/me')
 
+    @allure.step("Get user by user id: {user_id}")
     def get_user_api(self, user_id: str) -> Response:
         """
         Метод получения пользователя по идентификатору.
@@ -27,6 +30,7 @@ class PrivateUsersClient(APIClient):
         """
         return self.get(url=f'/api/v1/users/{user_id}')
 
+    @allure.step("Update user by user id: {user_id}")
     def patch_user_api(self, user_id: str, request: UpdateUserRequestSchema) -> Response:
         """
         Метод обновления пользователя по идентификатору.
@@ -37,6 +41,7 @@ class PrivateUsersClient(APIClient):
         """
         return self.patch(url=f'/api/v1/users/{user_id}', json=request.model_dump(by_alias=True))
 
+    @allure.step("Delete user by user id: {user_id}")
     def delete_user_api(self, user_id: str) -> Response:
         """
         Метод удаления пользователя по идентификатору.
@@ -46,6 +51,7 @@ class PrivateUsersClient(APIClient):
         """
         return self.delete(url=f'/api/v1/users/{user_id}')
 
+    @allure.step("Get user by user id: {user_id}")
     def get_user(self, user_id: str) -> GetUserResponseSchema:
         """
         Метод получения тела ответа get_user_api

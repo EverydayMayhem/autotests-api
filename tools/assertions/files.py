@@ -4,8 +4,10 @@ from tools.assertions.base import assert_equals
 from clients.files.files_model import CreateFileRequestSchema, CreateFileResponseSchema, FileSchema, \
     GetFileResponseSchema
 from tools.assertions.errors import assert_validation_error_response
+import allure
 
 
+@allure.step("Check create file response")
 def assert_create_file_response(request: CreateFileRequestSchema, response: CreateFileResponseSchema):
     """
     Проверка ответа создания файла
@@ -19,6 +21,7 @@ def assert_create_file_response(request: CreateFileRequestSchema, response: Crea
     assert_equals(request.directory, response.file.directory, 'directory')
 
 
+@allure.step("Check file")
 def assert_file(actual: FileSchema, expected: FileSchema):
     """
     Проверяет, что фактическое значение соответствует ожидаемому
@@ -32,6 +35,7 @@ def assert_file(actual: FileSchema, expected: FileSchema):
     assert_equals(actual.url, expected.url, 'url')
 
 
+@allure.step("Check get file response")
 def assert_get_file_response(get_file_response: GetFileResponseSchema,
                              create_file_response: CreateFileResponseSchema
                              ):
@@ -44,6 +48,7 @@ def assert_get_file_response(get_file_response: GetFileResponseSchema,
     assert_file(get_file_response.file, create_file_response.file)
 
 
+@allure.step("Check create file with empty filename response")
 def assert_create_file_with_empty_filename_response(actual: ValidationErrorResponseSchema):
     """
     Проверяет, что ответ на создание файла с пустым именем файла соответствует ожидаемой валидационной ошибке.
@@ -65,6 +70,7 @@ def assert_create_file_with_empty_filename_response(actual: ValidationErrorRespo
     assert_validation_error_response(actual, expected)
 
 
+@allure.step("Check create file with empty directory response")
 def assert_create_file_with_empty_directory_response(actual: ValidationErrorResponseSchema):
     """
     Проверяет, что ответ на создание файла с пустым значением директории соответствует ожидаемой валидационной ошибке.
@@ -86,6 +92,7 @@ def assert_create_file_with_empty_directory_response(actual: ValidationErrorResp
     assert_validation_error_response(actual, expected)
 
 
+@allure.step("Check create file with incorrect file id response")
 def assert_get_file_with_incorrect_file_id_response(actual: ValidationErrorResponseSchema):
     expected = ValidationErrorResponseSchema(
         detail=[
@@ -102,6 +109,8 @@ def assert_get_file_with_incorrect_file_id_response(actual: ValidationErrorRespo
     )
     assert_validation_error_response(actual, expected)
 
+
+@allure.step("Check internal error response")
 def assert_internal_error_response(
         actual: InternalErrorResponseSchema,
         expected: InternalErrorResponseSchema
@@ -115,6 +124,8 @@ def assert_internal_error_response(
     """
     assert_equals(actual.details, expected.details, "details")
 
+
+@allure.step("Check file not found response")
 def assert_file_not_found_response(actual: InternalErrorResponseSchema):
     """
     Функция для проверки ошибки, если файл не найден на сервере.

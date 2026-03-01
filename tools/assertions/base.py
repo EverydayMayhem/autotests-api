@@ -1,6 +1,8 @@
 from typing import Any, Sized
+import allure
 
 
+@allure.step("Assert that status code equals {expected}")
 def assert_status_code(actual: int, expected: int):
     """
     Сравнение статус кодов
@@ -15,6 +17,7 @@ def assert_status_code(actual: int, expected: int):
     )
 
 
+@allure.step("Assert that {name} equals {expected}")
 def assert_equals(actual: Any, expected: Any, name: str):
     """
     Проверка значений на равенство
@@ -30,6 +33,7 @@ def assert_equals(actual: Any, expected: Any, name: str):
     )
 
 
+@allure.step("Assert that {name} is True")
 def assert_is_true(actual: Any, name: str):
     """
     Сравнивает булево (не пустое ли значение
@@ -51,8 +55,9 @@ def assert_length(actual: Sized, expected: Sized, name: str):
         :param expected: Ожидаемый объект.
         :raises AssertionError: Если длины не совпадают.
     """
-    assert len(actual) == len(expected), (
-        f'Length mismatch for object: {name} '
-        f'Expected length: {len(expected)} '
-        f'Actual length: {len(actual)}'
-    )
+    with allure.step(f"Assert that {name} is {len(expected)} length"):
+        assert len(actual) == len(expected), (
+            f'Length mismatch for object: {name} '
+            f'Expected length: {len(expected)} '
+            f'Actual length: {len(actual)}'
+        )
