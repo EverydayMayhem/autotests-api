@@ -5,6 +5,7 @@ from clients.files.files_model import CreateFileRequestSchema, CreateFileRespons
     GetFileResponseSchema
 from tools.assertions.errors import assert_validation_error_response
 import allure
+from config import settings
 
 
 @allure.step("Check create file response")
@@ -14,7 +15,7 @@ def assert_create_file_response(request: CreateFileRequestSchema, response: Crea
     :param request: запрос на создание файла
     :param response: ответ на создание файла
     """
-    expected_url = f'http://localhost:8000/static/{request.directory}/{request.filename}'
+    expected_url = f'{settings.http_client.client_url}static/{request.directory}/{request.filename}'
 
     assert_equals(expected_url, str(response.file.url), 'url')
     assert_equals(request.filename, response.file.filename, 'filename')
