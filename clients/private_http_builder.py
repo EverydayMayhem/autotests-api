@@ -5,7 +5,7 @@ from functools import lru_cache
 from pydantic import BaseModel, EmailStr
 from clients.auth_client.auth_client import get_auth_client
 from clients.auth_client.auth_model import LoginRequestSchema
-from clients.event_hooks import curl_event_hook
+from clients.event_hooks import curl_event_hook, log_response_event_hook, log_request_event_hook
 from config import settings
 
 
@@ -16,6 +16,7 @@ class AuthenticationUserSchema(BaseModel, frozen=True):
     email: EmailStr
     password: str
 
+
 @lru_cache(maxsize=None)
 def get_private_http_client(user: AuthenticationUserSchema) -> Client:
     """
@@ -24,18 +25,17 @@ def get_private_http_client(user: AuthenticationUserSchema) -> Client:
     :param user: Объект AuthenticationUserSchema с email и паролем пользователя.
     :return: Готовый к использованию объект httpx.Client с установленным заголовком Authorization.
     """
-    # Инициализируем AuthenticationClient для аутентификации
     auth_client = get_auth_client()
 
-    # Инициализируем запрос на аутентификацию
     login_request = LoginRequestSchema(email=user.email, password=user.password)
 
-    # Выполняем POST запрос и аутентифицируемся
     login_response = auth_client.login(login_request)
 
     return Client(
         timeout=settings.http_client.timeout,
         base_url=settings.http_client.client_url,
         headers={'Authorization': f'Bearer {login_response.token.access_token}'},
-        event_hooks={'request':[curl_event_hook]}
+        event_hooks={'request': [curl_event_hook, log_request_event_hook],
+                     'response': [log_response_event_hook]
+                     }
     )

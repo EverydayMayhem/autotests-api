@@ -2,7 +2,8 @@ from typing import Any
 from jsonschema import validate
 from jsonschema.validators import Draft202012Validator
 import allure
-
+from tools.logger import get_logger
+logger = get_logger("SCHEMA_ASSERTIONS")
 
 @allure.step("Validate JSON schema")
 def validate_json_schema(instance: Any, schema: dict) -> None:
@@ -12,6 +13,7 @@ def validate_json_schema(instance: Any, schema: dict) -> None:
     :param schema: с чем сравниваем
     :return:
     """
+    logger.info("Validate JSON schema")
     validate(
         schema=schema,
         instance=instance,
