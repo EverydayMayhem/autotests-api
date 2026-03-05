@@ -25,3 +25,4 @@ class Settings(BaseSettings):
     http_client: HTTPClientConfig
 
 settings = Settings()
+print(settings.model_dump().items())
