@@ -4,6 +4,7 @@ import allure
 from clients.api_client import APIClient
 from clients.public_http_builder import get_public_http_client
 from clients.users.users_model import CreateUserRequestSchema, CreateUserResponseSchema
+from tools.routes import APIRoutes
 
 
 class PublicUsersClient(APIClient):
@@ -18,7 +19,7 @@ class PublicUsersClient(APIClient):
         :param request: словарь с email, password, lastName, firstName, middleName
         :return: возвращает объект типа httpx.Response
         """
-        return self.post(url='/api/v1/users', json=request.model_dump(by_alias=True))
+        return self.post(url=APIRoutes.USERS, json=request.model_dump(by_alias=True))
 
     def create_user(self, request: CreateUserRequestSchema) -> CreateUserResponseSchema:
         """
