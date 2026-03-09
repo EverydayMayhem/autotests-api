@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDExOjM5OjI5LjkyNzg3MSIsInVzZXJfaWQiOiIxYzVjZjZmNS01NzEyLTRmZDQtOTk4Zi0zZWQ2ODUwZWUyMDQifQ.H48xiqPm5BnxcUjtlik4xpXKp73QWXVI0eC06Pf04Ns' \
+ -H 'content-length: 394' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Pull picture view administration fill too soldier partner.","courseId":"1ba0b5fb-d549-49a6-a0fc-131c38427b5c","maxScore":53,"minScore":10,"orderIndex":5,"description":"Decade body piece ready. Vote address meet only interview administration agent. Two recognize reduce ahead believe.\nHere statement north purpose cultural. Various town development center.","estimatedTime":"1 weeks"}'

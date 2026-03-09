@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDExOjM5OjI5LjkyNzg3MSIsInVzZXJfaWQiOiIxYzVjZjZmNS01NzEyLTRmZDQtOTk4Zi0zZWQ2ODUwZWUyMDQifQ.H48xiqPm5BnxcUjtlik4xpXKp73QWXVI0eC06Pf04Ns' \
+ -H 'content-length: 419' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Produce name thus however alone approach.","maxScore":75,"minScore":24,"description":"Role step nation special amount process myself force. Role work yes draw lawyer.\nNational whose candidate discuss paper sense and. Important relate anyone course thousand agent wide.","estimatedTime":"2 weeks","previewFileId":"e7ecdc7c-678b-4f2e-b41c-c6d2525af32d","createdByUserId":"1c5cf6f5-5712-4fd4-998f-3ed6850ee204"}'

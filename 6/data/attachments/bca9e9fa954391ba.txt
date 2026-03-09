@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDExOjM5OjI3LjMwNjU1MyIsInVzZXJfaWQiOiIxMjRlYTY3Ny1kODgzLTRlNDctYjQ5MC00YTI3N2RlMzNiNmYifQ.UBjJX8qleLAEaeHpMHmPJ6j8XVd_iZJgB8DJ-gyAcpU' \
+ -H 'content-length: 394' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Step feel individual become cause exactly figure small.","maxScore":79,"minScore":2,"description":"Account finally about true camera deep cultural. Site less cultural necessary side above. Reflect sometimes single wait now turn guess difficult.","estimatedTime":"5 weeks","previewFileId":"51bec92e-2846-4981-ba22-5994a43efe00","createdByUserId":"124ea677-d883-4e47-b490-4a277de33b6f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDExOjM5OjMxLjEyNTU5OSIsInVzZXJfaWQiOiIwODNjNWY4Ny0yYTk2LTQzMjEtOTlmNy01M2EzY2RlYmQyMjcifQ.Ph4XC9Ay_FBvQg_iktcjKReveadDXYby9LgVCSgYz38' \
+ -H 'content-length: 370' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Yet wait check difference after.","maxScore":59,"minScore":3,"description":"Group Republican stuff try wide rich. Section pick young activity.\nDefense game position shoulder drug assume nation. Meet body condition less.","estimatedTime":"8 weeks","previewFileId":"0364c533-fa9a-4bed-adc9-8af0e23feea6","createdByUserId":"083c5f87-2a96-4321-99f7-53a3cdebd227"}'

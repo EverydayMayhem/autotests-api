@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDExOjM5OjI4LjQ1MjkzOCIsInVzZXJfaWQiOiI5NzQyYzMyOC1lNjUyLTQ0ZDQtYWVhYi1jOWNkMWU5MTUzNDUifQ.ekx5UDmhx034wNK06jhkaFuUPn67sW9FiXN788fVpmQ' \
+ -H 'content-length: 354' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Act parent event quickly open simply.","maxScore":66,"minScore":30,"description":"Media tell worry major nothing people.\nGirl purpose American knowledge service director upon. Toward until realize focus.","estimatedTime":"7 weeks","previewFileId":"a3d0e8fc-ea92-4a78-8c98-37dbfbde9526","createdByUserId":"9742c328-e652-44d4-aeab-c9cd1e915345"}'

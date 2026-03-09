@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDExOjM5OjI5LjY1MzQ4OCIsInVzZXJfaWQiOiI1OWM3NWY0OS0wYzkwLTRlYTYtOTVkNi0zMGM3YjMyZGFmMWUifQ.FyhBICUzgXl5jRQ4lKKCfvCBavfQAx6U9lJIwdyeXF8' \
+ -H 'content-length: 307' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Practice man how ok magazine ahead call.","maxScore":68,"minScore":17,"description":"Court ever reach away eight teach. Easy heart message family a Congress.","estimatedTime":"9 weeks","previewFileId":"e76e6c71-bc5f-406b-acad-c330614e8f4c","createdByUserId":"59c75f49-0c90-4ea6-95d6-30c7b32daf1e"}'

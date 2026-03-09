@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/exercises/c9a441da-9a7c-4a2b-b297-37a1048956cb' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDExOjM5OjI5LjkyNzg3MSIsInVzZXJfaWQiOiIxYzVjZjZmNS01NzEyLTRmZDQtOTk4Zi0zZWQ2ODUwZWUyMDQifQ.H48xiqPm5BnxcUjtlik4xpXKp73QWXVI0eC06Pf04Ns' \
+ -H 'content-length: 337' \
+ -H 'content-type: application/json' \
+ -d '{"title":"If cultural no money wall leader yourself.","maxScore":62,"minScore":20,"orderIndex":6,"description":"Of free describe simply agreement. Really court she stay performance trip.\nWork where much with. Reveal successful stand hand after nearly continue. According hit arrive red stay learn investment.","estimatedTime":"4 weeks"}'

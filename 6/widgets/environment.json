@@ -1,0 +1,1 @@
+[{"values":["{'image_png_file': PosixPath('testdata/files/cat.jpg')}"],"name":"test_data"},{"values":["{'url': HttpUrl('http://localhost:8000/'), 'timeout': 100.0}"],"name":"http_client"}]

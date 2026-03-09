@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:89 Check create course response
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "title" equals He sea also firm executive fight.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 84
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 27
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "description" equals From wonder big throw class ago radio. Cut leader investment away. Clearly brother live training treat there.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 7 weeks
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "preview_file" equals 7ae8240f-88d9-44c1-b1c4-8e03ea8856c1
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "created_by_user" equals 5f0ac8b0-e685-4b47-928b-36640a25492f
+INFO     SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

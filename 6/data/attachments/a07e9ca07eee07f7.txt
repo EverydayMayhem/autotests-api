@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDExOjM5OjI4LjcyNzU5NCIsInVzZXJfaWQiOiI1ZjBhYzhiMC1lNjg1LTRiNDctOTI4Yi0zNjY0MGEyNTQ5MmYifQ.ih6KSsTcWozdSXkhALknvh9le0VTvG2mxM0RBrcrr2M' \
+ -H 'content-length: 337' \
+ -H 'content-type: application/json' \
+ -d '{"title":"He sea also firm executive fight.","maxScore":84,"minScore":27,"description":"From wonder big throw class ago radio. Cut leader investment away. Clearly brother live training treat there.","estimatedTime":"7 weeks","previewFileId":"7ae8240f-88d9-44c1-b1c4-8e03ea8856c1","createdByUserId":"5f0ac8b0-e685-4b47-928b-36640a25492f"}'
