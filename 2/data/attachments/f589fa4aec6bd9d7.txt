@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDEwOjE5OjQxLjMwNjM2NSIsInVzZXJfaWQiOiIyMTgzNDM4Yi02MjczLTQ0NjgtODRjZS02NzFlMTdkN2U1OGMifQ.LRSYjzCizyUlT77cSCb3MoKoRBXj51ZYd9iltdDTXiY' \
+ -H 'content-length: 422' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Camera they hold population information research couple sing.","maxScore":91,"minScore":19,"description":"Try someone attorney teach government response skin artist. Fill happy professional fight election ability north. Thought heart serious control study particular hand.","estimatedTime":"7 weeks","previewFileId":"7c1940f8-8844-44d9-933b-ee55d8a62de0","createdByUserId":"2183438b-6273-4468-84ce-671e17d7e58c"}'

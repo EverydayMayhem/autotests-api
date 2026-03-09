@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDEwOjE5OjQwLjM4MTU3OCIsInVzZXJfaWQiOiJkZGNkNzQ2Ny1mMGFhLTRlNDItOTZkNS05MGJkZjMyNmNiM2EifQ.3pyW7w8PjyCoxSr_TQuL18uw261xfWAB43ZkNI7Yj-w' \
+ -H 'content-length: 360' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Learn short dog.","maxScore":82,"minScore":14,"description":"System field wonder couple lawyer south. Record nothing common magazine eat off somebody. Participant performance only would risk moment participant.","estimatedTime":"9 weeks","previewFileId":"6fc89b2b-cf68-4200-9720-a686c8fd90c4","createdByUserId":"ddcd7467-f0aa-4e42-96d5-90bdf326cb3a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDEwOjE5OjQwLjEwNTc5NiIsInVzZXJfaWQiOiIxOTViMzgwMy1jZTY0LTQwMmUtYTVlYS1jYWQ0YjVmYTdlN2YifQ.TU7bwWeEOvN0jdVKeGnWcLUqBVGDTl-CnuGYweJxSaU' \
+ -H 'content-length: 418' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Plant suffer hope indicate woman since.","maxScore":100,"minScore":14,"description":"Similar defense almost. Race recently do figure. Season organization share hour much machine.\nAuthority another often want red oil. Subject medical society. Property subject his war.","estimatedTime":"3 weeks","previewFileId":"f207d7a8-d898-44e9-8b50-854c8fbecc19","createdByUserId":"195b3803-ce64-402e-a5ea-cad4b5fa7e7f"}'

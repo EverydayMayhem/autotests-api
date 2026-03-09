@@ -1,0 +1,32 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/courses?userId=5bc09095-1175-4d67-a359-b354934f7a1f
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=5bc09095-1175-4d67-a359-b354934f7a1f
+INFO     BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:74 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:65 "Assert that "courses" is 1 length
+INFO     COURSES_ASSERTIONS:courses.py:49 Check course
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals e8f384bf-3da4-47b7-8205-8b87b5461f92
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "title" equals Teacher answer increase.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 68
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 20
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "description" equals Best practice compare these son only only lot. Need true happy anything. Card ever energy billion by.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 8 weeks
+INFO     FILE_ASSERTIONS:files.py:37 Check file
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals c93b3f53-3dfb-4764-ad82-377b15749976
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "directory" equals tests
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "filename" equals 6795bbfa-0552-49d0-acce-8b5b94f37ae9.png
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "url" equals http://localhost:8000/static/tests/6795bbfa-0552-49d0-acce-8b5b94f37ae9.png
+INFO     USERS_ASSERTIONS:users.py:36 Check users
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals 5bc09095-1175-4d67-a359-b354934f7a1f
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "email" equals espinozajustin@example.com
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "first_name" equals Michelle
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "last_name" equals Adams
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "middle_name" equals Amy
+INFO     SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

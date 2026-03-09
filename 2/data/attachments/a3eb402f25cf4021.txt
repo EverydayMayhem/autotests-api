@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDEwOjE5OjM5LjE3Nzk0MiIsInVzZXJfaWQiOiI5YTczOGM3Yy01MmU5LTQ4OGMtYjc5YS03ZDYxOThlNWMxOGQifQ.9LPPzx8hEbo1zk1J2Bup0pnzu8ty2_oeJize1lA-IiQ' \
+ -H 'content-length: 420' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Half start thing base scene.","maxScore":52,"minScore":16,"description":"Audience someone more some buy term. Above minute including similar fact interview.\nRock step fall similar maybe moment effort. Lose Democrat Mrs bring. Lead mouth without method black yeah south.","estimatedTime":"7 weeks","previewFileId":"84a4f878-87f2-4d11-a100-91e01de1c6d8","createdByUserId":"9a738c7c-52e9-488c-b79a-7d6198e5c18d"}'

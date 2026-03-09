@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDEwOjE5OjQyLjU2NDI5OSIsInVzZXJfaWQiOiI0M2U0ZTVkZS00YzRkLTRmYjktYWQ4MC1jZDc0MzY5MjEwNzMifQ.J5nArKn9QgznCqX9zzTdgp14TtZbGU15qSBMfxKlLFI' \
+ -H 'content-length: 354' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Save behavior action.","maxScore":90,"minScore":11,"description":"Society long news like.\nLight wonder successful why manager arm race to. Wait draw artist four most down. Training art education culture.","estimatedTime":"4 weeks","previewFileId":"28b567d7-8136-40fc-8f6d-fbe8858cb51f","createdByUserId":"43e4e5de-4c4d-4fb9-ad80-cd7436921073"}'

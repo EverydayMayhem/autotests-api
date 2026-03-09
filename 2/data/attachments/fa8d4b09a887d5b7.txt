@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDEwOjE5OjQwLjEwNTc5NiIsInVzZXJfaWQiOiIxOTViMzgwMy1jZTY0LTQwMmUtYTVlYS1jYWQ0YjVmYTdlN2YifQ.TU7bwWeEOvN0jdVKeGnWcLUqBVGDTl-CnuGYweJxSaU' \
+ -H 'content-length: 328' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Body during enough role night.","courseId":"15321d1a-cbf8-4bd6-8b45-2ff8a5107613","maxScore":82,"minScore":19,"orderIndex":100,"description":"Cultural good may break have field. Special remember safe black business. Blue several him between. Stay ok statement company life behavior himself.","estimatedTime":"9 weeks"}'
