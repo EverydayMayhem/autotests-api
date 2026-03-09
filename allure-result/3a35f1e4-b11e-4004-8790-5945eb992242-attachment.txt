@@ -1,0 +1,20 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+[32mINFO    [0m BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:17 Check create exercise response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:33 Assert that "title" equals Party help treat personal.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:33 Assert that "course_id" equals 3ca088c0-1b8c-46fa-8fc4-b19a8a6a2314
+[32mINFO    [0m BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 76
+[32mINFO    [0m BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 13
+[32mINFO    [0m BASE_ASSERTIONS:base.py:33 Assert that "order_index" equals 58
+[32mINFO    [0m BASE_ASSERTIONS:base.py:33 Assert that "description" equals Southern after officer whatever without involve. Ready ever theory character clearly. Continue serious mouth author would allow together.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 4 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

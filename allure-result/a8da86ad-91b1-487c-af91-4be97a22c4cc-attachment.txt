@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDE2OjM0OjI5LjM5Nzc5NCIsInVzZXJfaWQiOiIwMDViNDAyMS1mNjk4LTQ3OTYtYjc3Ni03MjlhMTE3ODA2YzUifQ.AEdR3XfdmZbgzYDHRGpEreqvKiTfUIkHvGQl17bpHZI' \
+ -H 'content-length: 418' \
+ -H 'content-type: application/json' \
+ -d '{"title":"And beat suggest deep former.","maxScore":80,"minScore":5,"description":"Land century amount hear machine least. Answer glass when forward win. Determine identify arm now mean real.\nData customer piece third different around. Expert bill bar score include government.","estimatedTime":"3 weeks","previewFileId":"85d1bf1a-5338-42cb-bc3c-f8235d5c21a1","createdByUserId":"005b4021-f698-4796-b776-729a117806c5"}'

@@ -1,0 +1,20 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/26cc2555-fe98-4246-945d-3b2df2448bb2
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses/26cc2555-fe98-4246-945d-3b2df2448bb2
+[32mINFO    [0m BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:22 Check update course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:33 Assert that "title" equals Pm seven both.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 80
+[32mINFO    [0m BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 23
+[32mINFO    [0m BASE_ASSERTIONS:base.py:33 Assert that "description" equals Couple center join. Ok town other gun.
+Night at finally from quite drive everybody. Power success town after economy.
+Long customer despite take and couple since military. Bag produce argue service.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 7 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

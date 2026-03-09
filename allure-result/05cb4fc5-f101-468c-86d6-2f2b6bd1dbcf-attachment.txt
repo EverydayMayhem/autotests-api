@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDE2OjM0OjIzLjA0OTc5MyIsInVzZXJfaWQiOiJlNGVhNTRhOS1hZGEyLTQwM2UtYmI0MC1lMjE1YWU3ZThlZjgifQ._tl3_TiX4ycCevLvRoo8oTs26AgRMQORtgm88V0EKEQ' \
+ -H 'content-length: 390' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Have task education economic relate main modern deal.","maxScore":50,"minScore":10,"description":"Voice phone present expect risk store. Cut really situation after foreign thousand spend. Measure stock ahead even provide movie issue speech.","estimatedTime":"6 weeks","previewFileId":"928f69f6-bb63-4c27-87cd-bca25a68ec50","createdByUserId":"e4ea54a9-ada2-403e-bb40-e215ae7e8ef8"}'

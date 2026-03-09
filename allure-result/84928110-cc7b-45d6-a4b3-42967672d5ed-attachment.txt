@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDE2OjM0OjI3LjMwNDc5NCIsInVzZXJfaWQiOiI5N2VmY2E0Yy1lYzQ5LTRmYjUtODZlZS01OGVhYmIxYTdkYTEifQ.4w1SFUO2az5o9qSUFE-e1i9sJYguIa-r1QgJt8jbbYQ' \
+ -H 'content-length: 368' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Southern my leave sea but today agreement speech.","maxScore":78,"minScore":16,"description":"Civil including research picture become. International still it significant. Speech stage always. Receive choice yet choice.","estimatedTime":"5 weeks","previewFileId":"7aebcd3d-f214-4f0a-83d2-f2dbaf3d8a4f","createdByUserId":"97efca4c-ec49-4fb5-86ee-58eabb1a7da1"}'

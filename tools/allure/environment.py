@@ -1,7 +1,7 @@
 from config import settings
 from pydantic import FilePath
 
-path = FilePath('./allure-result')
+path = FilePath('./allure-results')
 def create_allure_environment_file():
     # Создаем список из элементов в формате {key}={value}
     items = [f'{key}={value}' for key, value in settings.model_dump().items()]

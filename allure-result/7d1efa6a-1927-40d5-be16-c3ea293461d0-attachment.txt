@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDE2OjM0OjI5Ljk5NTc5NCIsInVzZXJfaWQiOiIyZGU0YTRiMS0yZDgwLTQ2ODQtODU1Mi03OGZhMTFhYjI0MjYifQ.2qzs2luEZXtSjmsJM9wOrQZ4VNBN_TPakuwCUtvKi34' \
+ -H 'content-length: 348' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Get morning they serve capital.","maxScore":50,"minScore":18,"description":"Against window hard send language bring moment six. Grow everything listen long Democrat law if. Get house idea have sell.","estimatedTime":"8 weeks","previewFileId":"1fa4c5b3-5b61-41fe-ad50-e808ba223873","createdByUserId":"2de4a4b1-2d80-4684-8552-78fa11ab2426"}'
