@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDEwOjIzOjI0LjA4MDIxNCIsInVzZXJfaWQiOiIwZjQ3ZDA2Ni0xYzM2LTRmM2ItOWJkNS1hN2M1ZTE1MTM5OGEifQ.G1avJq7Fzi9zkdbFL99eitrX6rUz9tatkmHK-xMWWKs' \
+ -H 'content-length: 323' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Type car necessary.","maxScore":92,"minScore":21,"description":"Beautiful amount foreign turn leader. Investment state behavior one listen. Between raise lawyer free spring.","estimatedTime":"6 weeks","previewFileId":"cd782abc-6aef-4dbe-8d77-10bb0c84d598","createdByUserId":"0f47d066-1c36-4f3b-9bd5-a7c5e151398a"}'

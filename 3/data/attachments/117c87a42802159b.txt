@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDEwOjIzOjIzLjc3MDczOSIsInVzZXJfaWQiOiI1ODlkMDVlNS01Y2M2LTRkODctOGI2Zi02ZjE2NTJkNWMwZjcifQ.FcOTY3B66mbimH33QywrevqvHxOamhgF2WdxqiJuppk' \
+ -H 'content-length: 363' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Outside difference onto technology term.","maxScore":96,"minScore":14,"description":"Western no cut country design money general building. Animal describe fact easy audience. Key good low brother rich data parent.","estimatedTime":"6 weeks","previewFileId":"084ba1bf-e523-49df-956e-19dc065f00f8","createdByUserId":"589d05e5-5cc6-4d87-8b6f-6f1652d5c0f7"}'

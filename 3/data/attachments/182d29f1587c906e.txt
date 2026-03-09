@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDEwOjIzOjI3Ljc3ODY1OCIsInVzZXJfaWQiOiIyOTk2MzI3Mi1mMTk0LTRlZmEtOWFkNi00YmMwNTc4ZjhjOWEifQ.L976QlOLPeEb4qOtMuNCsTLAmV-JycQ_eCJuTJxHBLo' \
+ -H 'content-length: 379' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Social fire hit so.","maxScore":55,"minScore":1,"description":"Family reduce effect evidence develop sister. Last section respond perhaps suddenly three education.\nNice herself size whole exist. Result these from care education.","estimatedTime":"3 weeks","previewFileId":"40c658f7-5d7b-4feb-9b2f-749380e5aa01","createdByUserId":"29963272-f194-4efa-9ad6-4bc0578f8c9a"}'

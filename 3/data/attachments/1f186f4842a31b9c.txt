@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDEwOjIzOjI2LjQyMDQ3OCIsInVzZXJfaWQiOiJlZGE4NGZlMC0yNTE1LTRhZGItYWVkZi0wMzRmOWY5OThiNDUifQ.WbN8jpTRABJ8x5GaeYkgFIEeaxikjsFEb52eeF154nw' \
+ -H 'content-length: 374' \
+ -H 'content-type: application/json' \
+ -d '{"title":"International threat practice outside.","courseId":"13f4df21-c7d0-4743-afbe-72db8fb13c5a","maxScore":91,"minScore":15,"orderIndex":94,"description":"Catch order interest institution side game hold. Can social policy image writer. Inside know television prepare others season.\nGovernment day major. We Mrs give none notice hit Democrat.","estimatedTime":"7 weeks"}'

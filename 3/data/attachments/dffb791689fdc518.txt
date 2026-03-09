@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDEwOjIzOjI1LjEwMTc5NiIsInVzZXJfaWQiOiI2Njk1ZmY5My0zNWQ5LTQ2MjEtYTEzZS1kZjBlOThhZDRlY2MifQ.WWye6tqOJSQsQEG4cTs9Wr0QgnfU-eiOB2xPPpTla4w' \
+ -H 'content-length: 348' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Republican society population ability increase.","maxScore":56,"minScore":5,"description":"Meeting call reason century area. Try weight reality environment your. Modern night even like perform that.","estimatedTime":"1 weeks","previewFileId":"364d3190-4175-4a7d-8ee5-226da114b8a7","createdByUserId":"6695ff93-35d9-4621-a13e-df0e98ad4ecc"}'

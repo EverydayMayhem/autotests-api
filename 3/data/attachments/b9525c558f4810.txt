@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDEwOjIzOjIyLjQ5MTc1OSIsInVzZXJfaWQiOiJiY2RlMzg3Ni1kN2U5LTRhODktOTgzOC1jNGNhYTYzZTIzMTIifQ._i1PMw85sGV7a7Hony9yZgRb4ny93DoHdgKDPq6Xxq8' \
+ -H 'content-length: 401' \
+ -H 'content-type: application/json' \
+ -d '{"title":"These collection address smile middle land explain.","maxScore":52,"minScore":21,"description":"Behind allow either choose left theory long.\nHospital sure red meet father life fear. Change political kitchen air. Drop push agency manager think worker.","estimatedTime":"8 weeks","previewFileId":"64222184-289c-4893-a437-d5303a22db36","createdByUserId":"bcde3876-d7e9-4a89-9838-c4caa63e2312"}'

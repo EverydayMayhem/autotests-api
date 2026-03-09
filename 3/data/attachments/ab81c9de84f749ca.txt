@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDEwOjIzOjI2LjcyOTEzMyIsInVzZXJfaWQiOiIyMmI0NWY4OC0yYjJkLTRkOTgtYTQ5NC0zZmU2YjUwN2FjNzQifQ.lLaMl1lIDsqH_qvRWru1IlLa0dVH6j9pE7uq9D-DsLQ' \
+ -H 'content-length: 390' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Unit clearly argue arm blood what.","maxScore":85,"minScore":9,"description":"Test watch join less successful single.\nPopulation available federal suffer. Fast president seem sure majority condition camera. Much close sometimes raise off.","estimatedTime":"10 weeks","previewFileId":"5fbcb948-8e2c-483d-ba1b-0645582184e9","createdByUserId":"22b45f88-2b2d-4d98-a494-3fe6b507ac74"}'

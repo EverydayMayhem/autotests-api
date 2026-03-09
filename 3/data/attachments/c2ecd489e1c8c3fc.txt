@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises?courseId=8211de56-f944-4615-b866-d31f8869c4ed
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=8211de56-f944-4615-b866-d31f8869c4ed
+INFO     BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:123 Check get all exercises response
+INFO     BASE_ASSERTIONS:base.py:65 "Assert that "exercises" is 1 length
+INFO     EXERCISES_ASSERTIONS:exercises.py:34 Check exercise
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals 2e65bc1e-6e15-4e60-bf4d-a22b0829c638
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "title" equals While list region face green professor new.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "course_id" equals 8211de56-f944-4615-b866-d31f8869c4ed
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 96
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 1
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "order_index" equals 47
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "description" equals Woman theory research once small second. Message sense reason ten. Near describe during up voice road certainly.
+Large ever before I. Specific police leg.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 6 weeks
+INFO     SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

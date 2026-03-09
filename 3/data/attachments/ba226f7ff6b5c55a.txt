@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDEwOjIzOjI1LjQwOTU3MSIsInVzZXJfaWQiOiI5MzJhZTY1Yy1hYjY0LTQwOTUtOGM1ZS1lOTk5Y2E4YmJlNTgifQ.Gwf85GfFd0VqfWfy_-yRoMrZwUkkTjyPTDbTxgaPpCQ' \
+ -H 'content-length: 361' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Executive charge peace him we well week.","maxScore":100,"minScore":21,"description":"Statement say election find throughout despite leave few. Past century site though eye majority result each. Great them game.","estimatedTime":"4 weeks","previewFileId":"521b7d9f-13a9-4c5e-9829-48d3b4882878","createdByUserId":"932ae65c-ab64-4095-8c5e-e999ca8bbe58"}'
