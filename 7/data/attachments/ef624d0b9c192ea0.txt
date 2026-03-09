@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE4OjA2OjAzLjQ5MjEyMyIsInVzZXJfaWQiOiJiNjdjYzQxYy1kYjdjLTQ4ZjYtOTY3NC05MGM1MWQwMWE1MGEifQ.a7QpLmIzXxNC0sZARYf3zDyLI5-9Si3fm3_x53G0Zl8' \
+ -H 'content-length: 418' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Actually health common.","maxScore":60,"minScore":25,"description":"Part gas father. Agree hot us career dinner usually someone vote.\nBox tree just late church bar. Threat bar recognize within travel.\nOne I run record appear building. Sign early fly sometimes some.","estimatedTime":"10 weeks","previewFileId":"fd8e2368-0494-4c99-a068-3adc46d84ffe","createdByUserId":"b67cc41c-db7c-48f6-9674-90c51d01a50a"}'

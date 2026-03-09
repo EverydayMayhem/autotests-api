@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/c1fcedab-9f76-483a-91f7-2b0d530ba8b6' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE4OjA2OjAwLjk1OTMyMSIsInVzZXJfaWQiOiI1ODY2ODNhZS1hOTI1LTQzNjAtYjY2ZC00MThkOWZhNWRlOTMifQ.0ntUyQgYO9zaWod9DcB6uIZXnD3kYs_E8KnglZswEYg' \
+ -H 'content-length: 329' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Again serve however military yes win ground along.","maxScore":97,"minScore":19,"description":"Floor step wish send range once ball. Ten before party my medical commercial reality. Just record security resource member forward.\nRecognize check anyone beautiful. Time outside bill first born.","estimatedTime":"5 weeks"}'

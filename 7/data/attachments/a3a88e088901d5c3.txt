@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE4OjA2OjAwLjk1OTMyMSIsInVzZXJfaWQiOiI1ODY2ODNhZS1hOTI1LTQzNjAtYjY2ZC00MThkOWZhNWRlOTMifQ.0ntUyQgYO9zaWod9DcB6uIZXnD3kYs_E8KnglZswEYg' \
+ -H 'content-length: 406' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Read wrong capital prove seat word.","maxScore":66,"minScore":8,"description":"Around option within capital.\nAt education leave quickly item either always. Ground little defense debate.\nAround society art wall. Level experience trouble large nice office.","estimatedTime":"5 weeks","previewFileId":"048482c7-07b8-4f43-93c9-6dd9c7884a2f","createdByUserId":"586683ae-a925-4360-b66d-418d9fa5de93"}'

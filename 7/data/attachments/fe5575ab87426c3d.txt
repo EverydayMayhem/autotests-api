@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE4OjA2OjAyLjM1NTIxOCIsInVzZXJfaWQiOiJmNDRkY2U4OS1lYzZjLTQxMWYtOWFmNC1mMjYxMDM1ODlmZjkifQ.wlcr8qM_DnT8Y29UUxgt3QjuXuamZrZ3Xj37XoItk_8' \
+ -H 'content-length: 356' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Southern house hit me growth suddenly act.","maxScore":82,"minScore":4,"description":"Including yes pretty at morning season late leave. So star arm buy wrong material plant wait. What laugh rate situation.","estimatedTime":"3 weeks","previewFileId":"0704866e-2501-438c-980b-f440ec8fd81c","createdByUserId":"f44dce89-ec6c-411f-9af4-f26103589ff9"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE4OjA2OjAxLjIxOTI0OSIsInVzZXJfaWQiOiJiNzhhYzgxMy0wYjU0LTQ1YzUtOTk3My1jODQyNTI5OGY1MDkifQ.kX5mTnn9v63ybL3gBzMZp-bJtoc-jT-DV9NbpN3iLzM' \
+ -H 'content-length: 370' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Technology despite hospital fine blood.","maxScore":74,"minScore":11,"description":"Believe dream three particular station total. Know quite every.\nForce sure country firm order carry financial. Expect better base here.","estimatedTime":"1 weeks","previewFileId":"4682a64b-c826-4699-b2d4-6f26cdc9c949","createdByUserId":"b78ac813-0b54-45c5-9973-c8425298f509"}'
