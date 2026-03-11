@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE0OjU2OjM2LjkyMzM5NyIsInVzZXJfaWQiOiI2ZTNkZDI3NC03OTI4LTQ4MTctOGZjYS03NmExNTUyOWVmNzIifQ.F3mzrreu_sxZZEJQQ_EMlB3RXPWzaTvs29YrWPizM-s' \
+ -H 'content-length: 424' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Star seat cover interview throw visit crime.","maxScore":77,"minScore":9,"description":"Well assume oil increase. Decision choose recent. Book past system treat rise none.\nStory concern sometimes thus than. Detail special her half scientist. Business since service too for.","estimatedTime":"7 weeks","previewFileId":"adaa68ad-3e64-4c6e-a2ce-9a3ed9402091","createdByUserId":"6e3dd274-7928-4817-8fca-76a15529ef72"}'

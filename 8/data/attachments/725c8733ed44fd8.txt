@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE0OjU2OjM0LjUyMzc0MSIsInVzZXJfaWQiOiI3NTY5MTQxOS1lNjY1LTQwNDYtODUyZC1jNTQ2Nzc1Y2RhNTQifQ.VgzAWB_5F9HrWgUApAx4dCSTn1nWlqUpHZEIKuFpnl4' \
+ -H 'content-length: 279' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Partner show inside within cost free.","courseId":"b4257d3d-5f51-4b8f-b4f5-6e7391b3bf4c","maxScore":78,"minScore":21,"orderIndex":23,"description":"Art who save analysis. Base fall street close should newspaper. Name teach create film paper.","estimatedTime":"6 weeks"}'

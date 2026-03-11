@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE0OjU2OjMzLjMxODE2NiIsInVzZXJfaWQiOiI0ZGIxM2Y2NC01ZDgwLTQxNmUtOGY4Yi1hZDQ2N2Y0YTRmMDkifQ.vxqhJrSJ-k436dZf66TbESs6AA6KsBGIwjcCyI6fMzg' \
+ -H 'content-length: 329' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Fight behavior memory wind design rich his.","maxScore":74,"minScore":17,"description":"Name white fish least Mr. Only carry number owner career. You often magazine your various.","estimatedTime":"10 weeks","previewFileId":"ebb3f61b-93a3-4935-9c2b-e5db54d3c071","createdByUserId":"4db13f64-5d80-416e-8f8b-ad467f4a4f09"}'

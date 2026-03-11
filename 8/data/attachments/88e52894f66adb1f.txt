@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE0OjU2OjM0LjUyMzc0MSIsInVzZXJfaWQiOiI3NTY5MTQxOS1lNjY1LTQwNDYtODUyZC1jNTQ2Nzc1Y2RhNTQifQ.VgzAWB_5F9HrWgUApAx4dCSTn1nWlqUpHZEIKuFpnl4' \
+ -H 'content-length: 337' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Return door morning college field.","maxScore":79,"minScore":1,"description":"Expect treatment happy off water move. Away stand order. Behind Democrat collection lay mention reason paper.","estimatedTime":"9 weeks","previewFileId":"29652514-1eef-4ffe-958c-1cae10c352a0","createdByUserId":"75691419-e665-4046-852d-c546775cda54"}'

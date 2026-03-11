@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/c3187635-fd61-4f2c-b866-2b4ffcd985e9' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE0OjU2OjMzLjMxODE2NiIsInVzZXJfaWQiOiI0ZGIxM2Y2NC01ZDgwLTQxNmUtOGY4Yi1hZDQ2N2Y0YTRmMDkifQ.vxqhJrSJ-k436dZf66TbESs6AA6KsBGIwjcCyI6fMzg' \
+ -H 'content-length: 314' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Stand man Democrat however model imagine phone.","maxScore":87,"minScore":28,"description":"Manage for watch animal ok before. Manager lead from hot style.\nBelieve save wrong a usually feeling. Adult past rate sign thousand like affect. Film have usually would realize owner.","estimatedTime":"4 weeks"}'

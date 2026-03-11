@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE0OjU2OjM0Ljc5NTk1MyIsInVzZXJfaWQiOiIzZjI5NzExNS1lZDY3LTQ2MTQtYWI2Yi05MDdhY2FjMmM0M2IifQ.1BiejhlSwVGHOFq-d0nGTxo-osds7U9loZTZXwz5aO0' \
+ -H 'content-length: 428' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Affect officer resource begin tonight treat time.","maxScore":90,"minScore":3,"description":"Major down candidate executive whether eat. Employee offer themselves next American fly consider health.\nIndustry ground they. Item test matter guy. Life but rate century from control.","estimatedTime":"4 weeks","previewFileId":"e14c7393-7c2e-4f5f-ac4e-d232c8763664","createdByUserId":"3f297115-ed67-4614-ab6b-907acac2c43b"}'

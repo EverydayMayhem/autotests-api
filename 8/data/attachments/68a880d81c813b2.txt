@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE0OjU2OjM1LjcwMzY5MyIsInVzZXJfaWQiOiI0NWMxZDM0NC01NzY1LTQ1ZDItODdjYy00MDA0YjJlYjE3OGIifQ.4hpNYbHPW1mXweY9f_DUdT25eY0DJbVDD9bI4Q-SfhY' \
+ -H 'content-length: 443' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Important media actually full relate than force war.","maxScore":83,"minScore":16,"description":"Century late him move dog son. Nor sit physical manager hour. How big field student past friend.\nHeavy amount agency great class. Pattern early director along. Win authority which group suddenly.","estimatedTime":"6 weeks","previewFileId":"771a2043-3ffb-456e-9fb7-54713e926e4b","createdByUserId":"45c1d344-5765-45d2-87cc-4004b2eb178b"}'

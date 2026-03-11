@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE0OjU2OjMzLjU5MjUwNyIsInVzZXJfaWQiOiJiZmE2NDRiZC1jZjNlLTRmM2QtYmZlYS01NzBlZTliOGY4MzgifQ.q-NwLcKJ4B8AL9Bc_HSsSd11gooPzoLvGJlK5eNoiFg' \
+ -H 'content-length: 367' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Wide stage head address ok though rich.","maxScore":90,"minScore":24,"description":"Probably physical hear nearly produce use. Camera high everyone air.\nGround explain process medical market. Spend father such throw.","estimatedTime":"7 weeks","previewFileId":"00572932-515d-4fbf-abde-5741c3c79fe5","createdByUserId":"bfa644bd-cf3e-4f3d-bfea-570ee9b8f838"}'
