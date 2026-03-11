@@ -46,35 +46,37 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses 2
 
+      - name: Restore Coverage history
+        uses: actions/cache/restore@v4
+        with:
+          path: coverage-history.json
+          key: coverage-history-${{ github.run_id }}
+          restore-keys: |
+            coverage-history-
+
+      - name: Generate Coverage report
+        run: |
+          swagger-coverage-tool save-report
+
+      - name: Cache Coverage  history
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: coverage-history.json
+          key: coverage-history-${{ github.run_id }}
+
+      - name: Upload Coverage report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: coverage.html
+
       - name: Upload allure results to artifacts
         uses: actions/upload-artifact@v4
         with:
           name: allure-results
           path: allure-results
-
-#      - name: Get Allure history
-#        uses: actions/checkout@v6  # Опять клонируем репозиторий, чтобы получить историю отчётов
-#        if: always()  # Всегда выполняем, независимо от успеха или неудачи предыдущих шагов
-#        continue-on-error: true  # Если здесь возникнет ошибка, workflow всё равно продолжит выполнение
-#        with:
-#          ref: gh-pages  # Указываем ветку gh-pages для получения отчётов
-#          path: gh-pages
-#
-#            # 9. Шаг для генерации и отображения отчёта Allure
-#      - name: Generates Allure Report with history
-#        uses: simple-elf/allure-report-action@v1.13  # Используем готовое решение из GitHub Marketplace для генерации Allure отчёта
-#        if: always()  # Этот шаг тоже всегда выполняется
-#        with:
-#          allure_results: allure-results  # Указываем каталог с результатами тестов
-#          allure_history: allure-history
-#
-#      - name: Deploy report to Github Pages
-#        if: always()  # Выполняется всегда, независимо от успеха других шагов
-#        uses: peaceiris/actions-gh-pages@v4  # Используем GitHub Action для публикации отчёта на GitHub Pages
-#        with:
-#          github_token: ${{ secrets.GITHUB_TOKEN }}  # Токен для аутентификации на GitHub
-#          publish_branch: gh-pages  # Указываем, что отчёт будет опубликован в ветке gh-pages
-#          publish_dir: allure-history
 
   publish-report:
     needs: run-tests
