@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE1OjAwOjU1LjE4Mzk3MCIsInVzZXJfaWQiOiIzYmNkOTlhMy1hZjc2LTQ4NDYtYTcwYy1kMWM3MzBlODhiYzkifQ.Bmj6eSkBczwpvn3Bs8UjjOBehj1NcIgrehK1P6lkCNo' \
+ -H 'content-length: 356' \
+ -H 'content-type: application/json' \
+ -d '{"title":"According accept including three attorney push.","maxScore":63,"minScore":16,"description":"My style top woman board. Myself candidate understand including relationship.\nOur least she million amount east.","estimatedTime":"10 weeks","previewFileId":"a77439b0-9837-49bc-b512-0437510a765b","createdByUserId":"3bcd99a3-af76-4846-a70c-d1c730e88bc9"}'

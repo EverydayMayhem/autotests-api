@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE1OjAwOjU2LjExNTIzMiIsInVzZXJfaWQiOiI1M2I0NjI3OS1lYjQyLTRkM2YtYTdkZC1iYjZiYzgxMWZhMDYifQ.tJvHNPKIjzeRkp0Or_toSTVUuzT2NYHYL-6x-U_fdkw' \
+ -H 'content-length: 394' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Hour black kind benefit force.","maxScore":65,"minScore":14,"description":"Positive as technology event age. Black person bar religious condition word television. Laugh figure because guy.\nHome western according. Movie gas student inside else.","estimatedTime":"9 weeks","previewFileId":"4bd11564-7b3f-43be-86b3-ee0c3ffd1c4a","createdByUserId":"53b46279-eb42-4d3f-a7dd-bb6bc811fa06"}'

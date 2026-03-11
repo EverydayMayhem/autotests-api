@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE1OjAwOjUzLjk5MTAyOSIsInVzZXJfaWQiOiJlZmQ3YmJjYS1hNDkzLTRjN2QtOTFiZS1kNjNmN2MxOTc0OTMifQ.TYGJzkCYK7qgVAdfDJMYDgUGIPVus3IfZ-miFSGnng4' \
+ -H 'content-length: 332' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Mouth vote great.","maxScore":50,"minScore":21,"description":"Address ahead return suddenly season thus. Relate finish plan however soon beat doctor. These eye loss state can appear.","estimatedTime":"5 weeks","previewFileId":"040ea39d-c23d-48db-9e59-7e2440ec808d","createdByUserId":"efd7bbca-a493-4c7d-91be-d63f7c197493"}'

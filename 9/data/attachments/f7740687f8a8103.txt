@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE1OjAwOjU3LjM1NzQ2NyIsInVzZXJfaWQiOiJhMjk4NDg4MS0zNDYyLTQ0ODgtYmRhMS0xODNhMzMzOWMxNzYifQ.SJAJFuhAJVjDa6zLjZs1Rr-OPi8dXIjYG6U-8SJbB0Q' \
+ -H 'content-length: 391' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Economic service meet use money late body.","maxScore":82,"minScore":17,"description":"Sure already government through response consumer fly. Great tree especially least nearly staff soon involve. Food more action own occur thousand college.","estimatedTime":"9 weeks","previewFileId":"850ce925-6585-47dd-bf05-8203b1abde50","createdByUserId":"a2984881-3462-4488-bda1-183a3339c176"}'

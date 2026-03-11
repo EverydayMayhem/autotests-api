@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:17 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "title" equals Director security food school serve.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "course_id" equals fc4462bd-0d76-4940-8c36-565ac7528292
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 86
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 8
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "order_index" equals 90
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "description" equals Budget collection cold class run. Third close agree director population.
+Popular religious teacher add.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 2 weeks
+INFO     SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

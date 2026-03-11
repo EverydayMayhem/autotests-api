@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE1OjAwOjU0LjkxMDIyNSIsInVzZXJfaWQiOiJkZDMzOTI1ZS0xOWI4LTQ5OTQtYTA1Mi0wMDIwYmEyNDE4YmEifQ.ZVhNbtxNA_KcxoVeU1irfxwxdPLp5KFifmujpRcJjt0' \
+ -H 'content-length: 288' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Director security food school serve.","courseId":"fc4462bd-0d76-4940-8c36-565ac7528292","maxScore":86,"minScore":8,"orderIndex":90,"description":"Budget collection cold class run. Third close agree director population.\nPopular religious teacher add.","estimatedTime":"2 weeks"}'

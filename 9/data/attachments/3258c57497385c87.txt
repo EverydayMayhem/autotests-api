@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE1OjAwOjUzLjcxNzIwOSIsInVzZXJfaWQiOiIxMWIyOWQ5Yi0yYTRiLTQyNTQtYjc0ZS1mNWZhYzQwODFiY2EifQ.q-VU1pJUdd_LDeTt9yIauaUgvE_EghZ7UEubR44cvfk' \
+ -H 'content-length: 409' \
+ -H 'content-type: application/json' \
+ -d '{"title":"More Mr what police finally stuff order.","maxScore":94,"minScore":9,"description":"Near idea prove activity generation. Deal player owner improve its.\nCultural claim answer nor fund. Draw property water only. Window growth least amount beautiful government.","estimatedTime":"6 weeks","previewFileId":"a7ef1f06-6866-4a71-9716-d3674f5c547d","createdByUserId":"11b29d9b-2a4b-4254-b74e-f5fac4081bca"}'

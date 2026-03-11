@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE1OjAwOjUyLjU3MDY4MCIsInVzZXJfaWQiOiJlNzdiOTNmNi05MjhmLTRiN2QtYWFkNy0xM2Y4M2ZhYWI4Y2UifQ.3Nnpnn_42hNJVqV45uTudh1p33xC67zwUtCD958dYgc' \
+ -H 'content-length: 400' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Cultural draw offer someone.","maxScore":73,"minScore":9,"description":"Cover pick within city technology pattern. Film soldier worker material section consider. Special cost build statement first plant still. Within simple mention or same pressure.","estimatedTime":"10 weeks","previewFileId":"af9756a1-7547-477d-a83d-cc0a2f606ad0","createdByUserId":"e77b93f6-928f-4b7d-aad7-13f83faab8ce"}'
