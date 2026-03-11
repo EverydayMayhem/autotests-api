@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE1OjM0OjAyLjkxODc2MiIsInVzZXJfaWQiOiIwMzU1NDE3Yy02ZDZmLTRkOTItODg3Zi0yMzU1ODljYmE0NjkifQ.trglV0vWW_EBm8kib-c4jNs8LnZ-h5gbUjqc5nkOhNQ' \
+ -H 'content-length: 408' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Remember book true end.","maxScore":80,"minScore":13,"description":"Risk deep travel career. Job college see wall unit home sister. Let he general firm.\nExpect down form political reveal investment book. Late performance sure benefit. Indicate perform hard.","estimatedTime":"5 weeks","previewFileId":"3b300496-e148-4368-bf52-275bbfb20420","createdByUserId":"0355417c-6d6f-4d92-887f-235589cba469"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE1OjM0OjA0LjA2MzY3MyIsInVzZXJfaWQiOiJlYzNlYTg3YS04MWQzLTRlN2EtYmQ1My1mOTg3NTRiZTdlMGIifQ.9cY5QLo2EMOtDEGKkFoqCG7pOCK-PdDBH4GnKeoQigs' \
+ -H 'content-length: 379' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Shake garden peace throughout executive start.","maxScore":84,"minScore":29,"description":"Him quality beyond. No social relationship day. Move responsibility image near.\nThird role song feel push. Mention draw good rock really.","estimatedTime":"9 weeks","previewFileId":"54105f37-cd82-4611-9ece-726dc0fee073","createdByUserId":"ec3ea87a-81d3-4e7a-bd53-f98754be7e0b"}'

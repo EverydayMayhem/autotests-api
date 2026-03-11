@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE1OjM0OjAwLjY5MjU2NCIsInVzZXJfaWQiOiI3OTFlOTZmMi0yODM1LTQwNmMtYjU5NC1iYzFjMGMxYzJjZmUifQ.86n8EqybIPJDFK8yz7pFpEm23J3y8r_8JMBxzCWDPKs' \
+ -H 'content-length: 375' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Positive scientist responsibility small develop include street.","maxScore":92,"minScore":14,"description":"Report painting certainly college night. National less difficult carry away how. Republican every structure although.","estimatedTime":"5 weeks","previewFileId":"a01993ba-7b0f-402e-8775-efb54fcc0dc9","createdByUserId":"791e96f2-2835-406c-b594-bc1c0c1c2cfe"}'

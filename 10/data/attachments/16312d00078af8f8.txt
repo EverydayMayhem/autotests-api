@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/courses?userId=791e96f2-2835-406c-b594-bc1c0c1c2cfe
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=791e96f2-2835-406c-b594-bc1c0c1c2cfe
+INFO     BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:74 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:65 "Assert that "courses" is 1 length
+INFO     COURSES_ASSERTIONS:courses.py:49 Check course
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals d2f3c815-bd7c-4c79-be31-99cea0500100
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "title" equals Positive scientist responsibility small develop include street.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 92
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 14
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "description" equals Report painting certainly college night. National less difficult carry away how. Republican every structure although.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 5 weeks
+INFO     FILE_ASSERTIONS:files.py:37 Check file
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals a01993ba-7b0f-402e-8775-efb54fcc0dc9
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "directory" equals tests
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "filename" equals 996d9e3e-963b-4844-bcd5-70cd9f24576b.png
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "url" equals http://localhost:8000/static/tests/996d9e3e-963b-4844-bcd5-70cd9f24576b.png
+INFO     USERS_ASSERTIONS:users.py:36 Check users
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals 791e96f2-2835-406c-b594-bc1c0c1c2cfe
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "email" equals terrydennis@example.net
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "first_name" equals Natasha
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "last_name" equals Bright
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "middle_name" equals Zachary
+INFO     SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

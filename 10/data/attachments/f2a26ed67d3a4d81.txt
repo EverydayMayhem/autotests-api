@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE1OjM0OjAzLjE4NTE2OCIsInVzZXJfaWQiOiIxNWZlODM5NC0wMjhmLTRlODQtYTNmNy0zYzRhMTQ3N2M0YTUifQ.pw8e0lp0jv3tXx-NLi-aKTUizQohD7MvdLmVAc86Ux8' \
+ -H 'content-length: 350' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Ahead others high person just.","maxScore":72,"minScore":10,"description":"Foreign want woman nature seek outside during water. Process improve agency study rich. Up notice professional protect right.","estimatedTime":"7 weeks","previewFileId":"a772aea8-ba54-41db-9870-013bc2f3896b","createdByUserId":"15fe8394-028f-4e84-a3f7-3c4a1477c4a5"}'

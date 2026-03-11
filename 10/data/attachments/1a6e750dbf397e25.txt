@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/995adcf7-b178-4183-8b74-7ba3fd85f8b4
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises/995adcf7-b178-4183-8b74-7ba3fd85f8b4
+INFO     BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:54 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:34 Check exercise
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals 995adcf7-b178-4183-8b74-7ba3fd85f8b4
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "title" equals Throughout positive talk production grow happen health.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "course_id" equals 047176e6-11d5-43b3-a847-8d8fc760c0ff
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 83
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 18
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "order_index" equals 8
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "description" equals Civil to open note simply store. Strategy never wonder foot prepare relate his. Himself environment improve able.
+Democrat soon product for.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 2 weeks
+INFO     SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

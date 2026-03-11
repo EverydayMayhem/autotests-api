@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/exercises/4cb5c03a-e394-4247-9a12-8480f91c61f0' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE1OjM0OjAzLjE4NTE2OCIsInVzZXJfaWQiOiIxNWZlODM5NC0wMjhmLTRlODQtYTNmNy0zYzRhMTQ3N2M0YTUifQ.pw8e0lp0jv3tXx-NLi-aKTUizQohD7MvdLmVAc86Ux8' \
+ -H 'content-length: 248' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Itself per citizen seem thing national least.","maxScore":70,"minScore":5,"orderIndex":79,"description":"Case must herself against grow. Or media company area marriage whatever than. Old computer others letter.","estimatedTime":"9 weeks"}'

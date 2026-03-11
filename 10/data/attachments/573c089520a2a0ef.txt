@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE1OjM0OjA0LjMyMzEwMiIsInVzZXJfaWQiOiJlNDM5MGE0OS1lYjQ0LTRkMzgtYWQ4NS1jNzhlMjEwZDA1NTEifQ.XJw3T-MwSr59VyIF5aphXJIsNRkYFSuXOzuc7YeWZdk' \
+ -H 'content-length: 363' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Decision relationship industry use appear tonight executive.","maxScore":95,"minScore":25,"description":"Get change population sister civil memory guess. There within detail wish never gun. Keep example direction.","estimatedTime":"6 weeks","previewFileId":"5c1d1768-8dc3-4e97-8079-71396db8b83c","createdByUserId":"e4390a49-eb44-4d38-ad85-c78e210d0551"}'

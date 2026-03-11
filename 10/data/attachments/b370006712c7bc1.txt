@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE1OjM0OjA0LjA2MzY3MyIsInVzZXJfaWQiOiJlYzNlYTg3YS04MWQzLTRlN2EtYmQ1My1mOTg3NTRiZTdlMGIifQ.9cY5QLo2EMOtDEGKkFoqCG7pOCK-PdDBH4GnKeoQigs' \
+ -H 'content-length: 344' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Throughout positive talk production grow happen health.","courseId":"047176e6-11d5-43b3-a847-8d8fc760c0ff","maxScore":83,"minScore":18,"orderIndex":8,"description":"Civil to open note simply store. Strategy never wonder foot prepare relate his. Himself environment improve able.\nDemocrat soon product for.","estimatedTime":"2 weeks"}'

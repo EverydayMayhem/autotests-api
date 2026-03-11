@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:17 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "title" equals Program truth continue play her candidate.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "course_id" equals c01ebd34-b354-4a07-84e7-9268a4033ca0
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 76
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 14
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "order_index" equals 25
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "description" equals Lot blue left live newspaper. Member garden end ahead treat still. Appear industry hundred sign identify purpose.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 1 weeks
+INFO     SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

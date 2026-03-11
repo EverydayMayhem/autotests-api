@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE1OjM0OjAyLjA0MDk2NCIsInVzZXJfaWQiOiJiNjE3NWJjYy0xNWU0LTQ5MTgtYjJhZi1iNTllMDdhZWM1NWQifQ.KxUqmnPPdDUgrcVxlks0_Dv30GDKJVxdlHFKVSL25B0' \
+ -H 'content-length: 431' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Ground do stage discussion since opportunity firm debate.","maxScore":73,"minScore":20,"description":"Ready firm sort. Great because interesting our. Film station sing.\nSpend new determine them. Mind leave meeting impact soon decide.\nProcess because reality forget why night she.","estimatedTime":"9 weeks","previewFileId":"9e18b51b-ab8c-48b8-bb6d-31f5392edf85","createdByUserId":"b6175bcc-15e4-4918-b2af-b59e07aec55d"}'

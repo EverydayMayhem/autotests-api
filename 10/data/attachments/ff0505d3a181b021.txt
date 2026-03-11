@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE1OjM0OjAxLjc4MTM1MyIsInVzZXJfaWQiOiI4NDNlNjE0ZC1kYjc1LTQ2ZDktOTcwNy1jNjE4MTJkNGM3NGMifQ.41C0bKZJLMUPm7vsRnuASBCRMrSKhCRIoqwI4djM4es' \
+ -H 'content-length: 348' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Indeed reduce citizen so whose become fund.","maxScore":54,"minScore":18,"description":"Response commercial everything friend leg at despite candidate. Then over once. Around just beat section main.","estimatedTime":"5 weeks","previewFileId":"596d4f69-580f-4bcb-b64d-af33ad4130d9","createdByUserId":"843e614d-db75-46d9-9707-c61812d4c74c"}'
