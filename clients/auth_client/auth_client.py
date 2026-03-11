@@ -5,6 +5,7 @@ from clients.auth_client.auth_model import LoginRequestSchema, LoginResponseSche
 import allure
 
 from tools.routes import APIRoutes
+from clients.api_coverage import tracker
 
 
 class AuthClient(APIClient):
@@ -13,6 +14,7 @@ class AuthClient(APIClient):
     """
 
     @allure.step("Authenticate user")
+    @tracker.track_coverage_httpx(f"{APIRoutes.AUTHENTICATION}/login")
     def login_api(self, request: LoginRequestSchema) -> Response:
         """
         Метод выполняет аутентификацию пользователя.
@@ -23,6 +25,7 @@ class AuthClient(APIClient):
         return self.post(f'{APIRoutes.AUTHENTICATION}/login' , json=request.model_dump(by_alias=True))
 
     @allure.step("Refresh authentication tokens")
+    @tracker.track_coverage_httpx(f"{APIRoutes.AUTHENTICATION}/refresh")
     def refresh_api(self, request: RefreshRequestSchema) -> Response:
         """
         Метод обновляет токен авторизации.
@@ -30,7 +33,7 @@ class AuthClient(APIClient):
         :param request: Словарь с refreshToken.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post(f"{APIRoutes.COURSES}/refresh", json=request.model_dump(by_alias=True))
+        return self.post(f"{APIRoutes.AUTHENTICATION}/refresh", json=request.model_dump(by_alias=True))
 
     def login(self, request: LoginRequestSchema) -> LoginResponseSchema:
         """
