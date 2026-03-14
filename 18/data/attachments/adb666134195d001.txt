@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE5OjA4OjIzLjM4MTY4MyIsInVzZXJfaWQiOiI5ZDIxYTZkNi1lODliLTQxZGMtYjkwZi01YzY2NmFlMDRkZDEifQ.AuvOraHMshJJ68mpO7LBoKXFsUEX24kgE5R8LWe232o' \
+ -H 'content-length: 373' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Cup news middle training attention example.","maxScore":67,"minScore":2,"description":"Executive this story little. Often eye teach arrive possible.\nProject later often large man. Consumer religious property drive however.","estimatedTime":"9 weeks","previewFileId":"c5e8f106-d9a3-4a80-aa01-60868f27e18b","createdByUserId":"9d21a6d6-e89b-41dc-b90f-5c666ae04dd1"}'

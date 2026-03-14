@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE5OjA4OjI0LjU3NDMwMCIsInVzZXJfaWQiOiI2OGI4ZjA5ZS1jYzdlLTRhMzktODI4NC02MGRjNWFhNzVjMWIifQ.o91m1W_7NVQfEOGes2NRYgB6S5-8oLXM9mKwvf-kMzM' \
+ -H 'content-length: 438' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Film suggest friend decision world agent woman.","maxScore":88,"minScore":16,"description":"Go term computer fight. Conference trip reach.\nAmerican particularly similar ever section. Stuff thousand without assume. Each beat thing general help TV change. Section stage side pretty effort.","estimatedTime":"2 weeks","previewFileId":"44da02a1-dc24-4d8a-9e92-c5947ac1652f","createdByUserId":"68b8f09e-cc7e-4a39-8284-60dc5aa75c1b"}'

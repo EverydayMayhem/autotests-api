@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE5OjA4OjIzLjY1NjM4MyIsInVzZXJfaWQiOiI2ZTUzNDhmMy1mZTdhLTQ5MDctYmU0Yi00MjNkODdiNDg4ZTkifQ.LZyd8yBTmZsKZ3FobCqfCt6lu2dUaQFm--M0AMivvoE' \
+ -H 'content-length: 406' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Have past middle theory.","maxScore":74,"minScore":24,"description":"More worker impact president business wonder. Surface board evidence recently.\nCould occur art against clear wear. Return others gas entire civil could. Sign usually against finish show.","estimatedTime":"4 weeks","previewFileId":"2104d729-260c-4aec-92e3-41b90b1a6fb4","createdByUserId":"6e5348f3-fe7a-4907-be4b-423d87b488e9"}'

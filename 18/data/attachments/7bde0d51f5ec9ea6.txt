@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/90811d71-42fb-4714-8681-e49f44aba30d
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses/90811d71-42fb-4714-8681-e49f44aba30d
+INFO     BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:22 Check update course response
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "title" equals Thank often century education.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 61
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 26
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "description" equals Many attack year determine. Investment without figure rule often fast.
+Drug read window animal home new. Kind support general would alone stop. Drop none morning option million.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 9 weeks
+INFO     SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

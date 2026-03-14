@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE5OjA4OjIzLjM4MTY4MyIsInVzZXJfaWQiOiI5ZDIxYTZkNi1lODliLTQxZGMtYjkwZi01YzY2NmFlMDRkZDEifQ.AuvOraHMshJJ68mpO7LBoKXFsUEX24kgE5R8LWe232o' \
+ -H 'content-length: 324' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Deal charge color third former data knowledge.","courseId":"e83509b9-cc94-445b-bceb-c72d691648ff","maxScore":56,"minScore":17,"orderIndex":90,"description":"In product card still step. Space me onto book. Message scientist their executive garden rest. Admit term admit situation little.","estimatedTime":"2 weeks"}'

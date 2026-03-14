@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE5OjA4OjIyLjE4NzU0MSIsInVzZXJfaWQiOiI3OWJlMThkZi0wODMzLTRmNzgtYWQ1OC04NzBkZTM2MzkyZmMifQ.1IWqL810JcbGbYmcwJz7okkds7GKcvORUs9K-F1z_eY' \
+ -H 'content-length: 399' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Base nearly number anything site name impact.","maxScore":60,"minScore":4,"description":"Agreement like this. Morning company cover around write. Candidate lead point still. Major drop occur.\nChoice whatever investment away key. Gun real treat eat.","estimatedTime":"4 weeks","previewFileId":"9e6fbaa6-7418-4c73-afa4-e8af22c430c0","createdByUserId":"79be18df-0833-4f78-ad58-870de36392fc"}'

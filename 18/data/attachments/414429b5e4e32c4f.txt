@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE5OjA4OjI1Ljc5NjU3OCIsInVzZXJfaWQiOiIyNDkyZTMwYy0yMTRhLTRmZTktODA4Ny1iN2ZjM2NiNDBkMDgifQ.oXq_bN5keDRZAmN__N9QeRhyVlx8imGKI26oOxC-FOw' \
+ -H 'content-length: 391' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Few hit myself week do produce blue.","maxScore":97,"minScore":6,"description":"Girl book even help. Whether organization great among certainly. Almost gas your list defense.\nOutside lawyer southern nothing. Page newspaper property instead.","estimatedTime":"6 weeks","previewFileId":"043e40f5-1ae0-4d9c-bc12-937a8199dc22","createdByUserId":"2492e30c-214a-4fe9-8087-b7fc3cb40d08"}'

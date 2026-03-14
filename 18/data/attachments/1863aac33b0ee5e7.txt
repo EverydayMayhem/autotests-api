@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE5OjA4OjIyLjQ2MDg0MCIsInVzZXJfaWQiOiJiZTJmZjFiZC1lNTZhLTQ0MTgtYmFjMy1iOWMyMjMwYjBmZTIifQ.0tZwkalz7D0TB3vgu4mRGLFS2Cn9iEmIa_qclAVNY5E' \
+ -H 'content-length: 388' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Market reduce trip although wall child.","maxScore":98,"minScore":14,"description":"Remember while take international explain teacher.\nAlmost weight agree under force apply. Offer every traditional trade decide. Officer let view field I.","estimatedTime":"2 weeks","previewFileId":"8708f12c-026d-42f4-b017-7131191317c6","createdByUserId":"be2ff1bd-e56a-4418-bac3-b9c2230b0fe2"}'
