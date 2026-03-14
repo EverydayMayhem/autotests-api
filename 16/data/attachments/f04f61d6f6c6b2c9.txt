@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjU4OjQ4LjA2NTg3NiIsInVzZXJfaWQiOiI5Y2RkODBkZi02ZjI0LTQ1MmUtYmU2OC0wNGY4YTEwYjk0MDMifQ.p_EARTzp-HsRB2s1lyacbHKh1bkxaBb4ru1gDBQ-TTc' \
+ -H 'content-length: 433' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Since many whole card Mr hear health interest.","maxScore":92,"minScore":11,"description":"Different media relationship figure star. Leader size game although assume build common. Mention professional event behavior.\nAdmit give issue manage blue high home dark. Stay fly sit accept.","estimatedTime":"7 weeks","previewFileId":"e45211f7-7de0-4129-b2fc-f7397d86309d","createdByUserId":"9cdd80df-6f24-452e-be68-04f8a10b9403"}'

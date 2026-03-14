@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjU4OjQ4LjkzNDk4MCIsInVzZXJfaWQiOiJlZTk5MDYzNC04NTIyLTQwMGMtYjdjNi0wOTRkMmE4NGMzNGEifQ.s3EmvW5FEICkuMwx7FIFr_3Ux_eHo3T4k6HnD4y7Wsk' \
+ -H 'content-length: 388' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Environment national role thank spend glass put.","maxScore":77,"minScore":24,"description":"Second scene if general here. Character anyone girl officer. Partner authority knowledge hair upon artist build. Foot join include cup type feel.","estimatedTime":"8 weeks","previewFileId":"0a387a84-1af9-45e2-ae33-d69d5258fff4","createdByUserId":"ee990634-8522-400c-b7c6-094d2a84c34a"}'

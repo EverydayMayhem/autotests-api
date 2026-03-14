@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:17 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "title" equals Personal practice music piece better benefit.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "course_id" equals 68a39062-ec68-4ade-a0de-a4948df2e646
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 79
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 3
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "order_index" equals 78
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "description" equals Road church deep city able.
+Coach central almost fine strategy bit hotel. Must true glass challenge others poor thing. Piece agency public responsibility couple order crime.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 2 weeks
+INFO     SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

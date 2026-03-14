@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:89 Check create course response
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "title" equals Seem management chance move lose read.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 87
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 26
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "description" equals Perform everyone product avoid blue speak. Charge sure baby rock center. Plant cup policy its both whatever.
+Section tax fear off sort. Standard fact west week. Church agree style find.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 8 weeks
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "preview_file" equals 4c651fb0-a591-40c1-a7d2-ff162e5e3a5f
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "created_by_user" equals 5ef7c703-faed-4865-af8e-59ae0f0f6eda
+INFO     SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

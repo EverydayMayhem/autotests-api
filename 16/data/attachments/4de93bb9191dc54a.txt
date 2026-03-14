@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises?courseId=cbb048ef-c390-4234-bfb7-904160c4a6ad
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=cbb048ef-c390-4234-bfb7-904160c4a6ad
+INFO     BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:123 Check get all exercises response
+INFO     BASE_ASSERTIONS:base.py:65 "Assert that "exercises" is 1 length
+INFO     EXERCISES_ASSERTIONS:exercises.py:34 Check exercise
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals 905e56e7-0647-467a-8ff6-651dcdecb1e7
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "title" equals Allow husband office practice new.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "course_id" equals cbb048ef-c390-4234-bfb7-904160c4a6ad
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 98
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 25
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "order_index" equals 73
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "description" equals Both stock market commercial. Yeah gun unit thought. Message within southern amount still wish could.
+Protect station by read. Enjoy reason final summer.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 3 weeks
+INFO     SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

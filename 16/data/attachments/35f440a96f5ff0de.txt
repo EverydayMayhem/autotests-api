@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjU4OjQ3LjgwNjg1NSIsInVzZXJfaWQiOiIzNTUyMmNhYi1lOGRkLTRhZGQtYjQyNi02YTMzYTRlNWZhMzgifQ.xk4Ca2OXCQxPxhaPIDEc7VZJXuz_T0XTaHmigeU5Ia4' \
+ -H 'content-length: 367' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Personal practice music piece better benefit.","courseId":"68a39062-ec68-4ade-a0de-a4948df2e646","maxScore":79,"minScore":3,"orderIndex":78,"description":"Road church deep city able.\nCoach central almost fine strategy bit hotel. Must true glass challenge others poor thing. Piece agency public responsibility couple order crime.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/1078339f-43dd-4262-bd9b-e7d2d62b66a4' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjU4OjQ2LjU4NDU1NiIsInVzZXJfaWQiOiI1ZTlhY2IzZC03ZjNjLTQ3OGItOWY2NC0yNzhiMjBlYzU3M2MifQ.Gy6P4pVch3xj95Ay2PQTL-6GRalej_BL5tiXLy1d0rA' \
+ -H 'content-length: 313' \
+ -H 'content-type: application/json' \
+ -d '{"title":"More community eight stock standard certainly director for.","maxScore":100,"minScore":17,"description":"Kid his administration wind heavy. Young against talk music at you son.\nRun factor for home. Available remain Congress buy. Tend various involve they similar home stage.","estimatedTime":"1 weeks"}'

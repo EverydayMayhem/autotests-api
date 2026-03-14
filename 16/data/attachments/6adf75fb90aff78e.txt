@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjU4OjQ5LjE5MzkyNyIsInVzZXJfaWQiOiJjNGQyODAwYi03Y2ZlLTRlMzgtYmM1MC03Njg4NTE4MzY0NzUifQ.KybtXq2CcWie-13g7j7Z9CgwnE3K_qZHq8roswLBHDg' \
+ -H 'content-length: 355' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Less test practice question.","maxScore":89,"minScore":15,"description":"Work eye similar begin stay physical method. Force determine authority often serious brother. Water peace common what agent realize.","estimatedTime":"1 weeks","previewFileId":"4c3aee0f-a5e2-49ed-96b9-0e01b8269cb4","createdByUserId":"c4d2800b-7cfe-4e38-bc50-768851836475"}'

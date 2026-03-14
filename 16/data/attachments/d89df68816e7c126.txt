@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjU4OjQ2Ljg0NTA2OCIsInVzZXJfaWQiOiI1ZWY3YzcwMy1mYWVkLTQ4NjUtYWY4ZS01OWFlMGYwZjZlZGEifQ.V1rqht4VH88_2TdvGbaGziKtk_4q82UMjGwimKmC5Ho' \
+ -H 'content-length: 419' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Seem management chance move lose read.","maxScore":87,"minScore":26,"description":"Perform everyone product avoid blue speak. Charge sure baby rock center. Plant cup policy its both whatever.\nSection tax fear off sort. Standard fact west week. Church agree style find.","estimatedTime":"8 weeks","previewFileId":"4c651fb0-a591-40c1-a7d2-ff162e5e3a5f","createdByUserId":"5ef7c703-faed-4865-af8e-59ae0f0f6eda"}'
