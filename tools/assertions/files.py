@@ -19,6 +19,8 @@ def assert_create_file_response(request: CreateFileRequestSchema, response: Crea
     :param response: ответ на создание файла
     """
     logger.info("Check create file response")
+    logger.info(f"DEBUG settings url: {settings.http_client.client_url}")
+    logger.info(f"DEBUG env file: {settings.model_config.get('env_file')}")
     expected_url = f'{settings.http_client.client_url}static/{request.directory}/{request.filename}'
 
     assert_equals(expected_url, str(response.file.url), 'url')
