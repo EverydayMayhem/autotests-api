@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE4OjA5OjUxLjY5NTE3MiIsInVzZXJfaWQiOiJlODAwZTM3Yi1lZThjLTQ5NzAtYWJkZS0zN2Y5YjI2Yjk4ZjMifQ.nCoWG8MxhHe6iBrHmLKw5ppuWkflMEsJVs4cJEtuKkw' \
+ -H 'content-length: 331' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Eye former large industry item major.","maxScore":57,"minScore":17,"description":"Result cost hear act debate modern answer eye. Scene street share hundred shoulder southern option.","estimatedTime":"5 weeks","previewFileId":"719d6840-8f0f-444d-9b50-b97a7419e4f7","createdByUserId":"e800e37b-ee8c-4970-abde-37f9b26b98f3"}'

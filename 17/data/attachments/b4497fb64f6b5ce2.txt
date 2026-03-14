@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/19f8ab4d-5a60-4518-b9e9-53a08d90788f' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE4OjA5OjQ5LjI4MzY2NCIsInVzZXJfaWQiOiIwMWNiMWYzOC1iMThlLTQ4ZDItODk2Ni1lMWIyNWFjMmZkMmEifQ.3HCQ0o1djYCDTlE5Bl5g7Aj61vZVMZfvrgMIWSdIXwI' \
+ -H 'content-length: 254' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Land loss size meet prevent board.","maxScore":94,"minScore":15,"description":"Keep guess for leader history baby strategy. Parent carry window everything point history. Job theory important leg forward organization.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE4OjA5OjUxLjk2ODYxMyIsInVzZXJfaWQiOiI4NWMwMTkzNS0wYmUyLTQ3MTQtODQ4ZC1iOGY0MmI0ZWY3MTQifQ.zeZ_6FKbyNKYx6M1Qj2femaO7b04aHerPdPXZudDvSA' \
+ -H 'content-length: 398' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Color water company growth along during son.","maxScore":81,"minScore":29,"description":"Top management her among approach soon. Call court early eye possible response.\nSurface different action doctor citizen outside. Hold detail she by art check.","estimatedTime":"5 weeks","previewFileId":"59b24f40-99d0-41d7-9478-53b6f4472ff7","createdByUserId":"85c01935-0be2-4714-848d-b8f42b4ef714"}'

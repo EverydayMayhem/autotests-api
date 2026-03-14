@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE4OjA5OjUwLjQ5NDcyOSIsInVzZXJfaWQiOiJjZDY4MGE4My1lMTk3LTQ5MmUtYTczOS1iOThkODI4MjEzM2QifQ.uhiCinNPssmrWzCseAyyXJmNnBUY3xm-uoD8nmeh73I' \
+ -H 'content-length: 376' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Since population floor clear.","maxScore":87,"minScore":21,"description":"Require pull can lot find. On brother herself cup their may charge level. Majority thus choose meet.\nMeasure hand war everything ball determine effect.","estimatedTime":"4 weeks","previewFileId":"31efb56e-6675-4388-b12c-6f0f21a72af5","createdByUserId":"cd680a83-e197-492e-a739-b98d8282133d"}'

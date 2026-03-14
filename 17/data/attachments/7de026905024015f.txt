@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE4OjA5OjQ5LjU1NzM1OCIsInVzZXJfaWQiOiJmMjIyNWVkZi0xYzFlLTQyMTMtYjVmOC1mNzk2YmQ0MTNlNjcifQ.LiJQizT1g50eKkd9NrQv1V7mZbEdVKEu2E4PhMGxrUI' \
+ -H 'content-length: 372' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Product general score who choose next.","maxScore":83,"minScore":11,"description":"Fine attack last win. Receive hotel door oil apply dinner team. When resource relate represent natural.\nMuch order discuss establish drug.","estimatedTime":"7 weeks","previewFileId":"1914bcd9-c69d-4885-a019-ff88889f455a","createdByUserId":"f2225edf-1c1e-4213-b5f8-f796bd413e67"}'

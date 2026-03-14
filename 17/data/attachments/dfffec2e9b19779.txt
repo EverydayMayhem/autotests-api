@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE4OjA5OjUwLjc2ODk5MCIsInVzZXJfaWQiOiI5M2YwNjQ4Zi0wYjkwLTQ0ZDUtOTY1ZS0yZmZhYzFhNGQ2ZmYifQ.qLU7RLVBB0m8WzF7fK1Qa0bVTi7bw_gA-7Zy1AchaYs' \
+ -H 'content-length: 346' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Society left must glass test.","maxScore":79,"minScore":10,"description":"Single order mention too. Do stuff during.\nHair available alone low prevent economic. This ready subject difficult sense.","estimatedTime":"4 weeks","previewFileId":"37b3b4ac-01a2-4536-b49b-272e42f48a4c","createdByUserId":"93f0648f-0b90-44d5-965e-2ffac1a4d6ff"}'

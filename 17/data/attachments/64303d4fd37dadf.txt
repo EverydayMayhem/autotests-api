@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE4OjA5OjQ5LjI4MzY2NCIsInVzZXJfaWQiOiIwMWNiMWYzOC1iMThlLTQ4ZDItODk2Ni1lMWIyNWFjMmZkMmEifQ.3HCQ0o1djYCDTlE5Bl5g7Aj61vZVMZfvrgMIWSdIXwI' \
+ -H 'content-length: 367' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Financial least wall law power sound specific.","maxScore":70,"minScore":23,"description":"Always them month road prepare stop in. Now matter else contain send strategy look. Establish field doctor door accept parent.","estimatedTime":"9 weeks","previewFileId":"edd6806b-ed9f-49d9-96fc-aa6d2ab43dcf","createdByUserId":"01cb1f38-b18e-48d2-8966-e1b25ac2fd2a"}'
