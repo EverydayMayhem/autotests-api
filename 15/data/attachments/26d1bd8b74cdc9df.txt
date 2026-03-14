@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjUyOjEyLjgzNjMyOCIsInVzZXJfaWQiOiJkYTJhMGY5Yy1lOTAyLTQyNWMtOTE1My04YWY4MDAzZGNiNDUifQ.wcFfIywf8WMNM23F2Fr_1o2FR6ezQkO5_-r0lj3reTY' \
+ -H 'content-length: 413' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Turn investment protect movement off husband.","maxScore":64,"minScore":13,"description":"Condition end senior tree since. Save rock born third section market. War method rather.\nHuman others memory. We dinner shake task several. Participant professional close.","estimatedTime":"10 weeks","previewFileId":"2c8303c0-6044-4208-bf97-be8e9f45df36","createdByUserId":"da2a0f9c-e902-425c-9153-8af8003dcb45"}'

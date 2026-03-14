@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjUyOjE1LjI1OTk2NCIsInVzZXJfaWQiOiI5ZmIyN2Q4OS1jZDFlLTQ4OWEtOWMxMC0xYzFlMzllODFmZDUifQ.krDsjbMJIUFlCTIUesxMwW8x-sopTmUxHC5Vn-B86fQ' \
+ -H 'content-length: 374' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Order important before sit hotel serve clearly agent.","courseId":"12cb9dac-0f97-4c0a-9fb5-79470a4755ae","maxScore":94,"minScore":4,"orderIndex":15,"description":"Level high great. End his style society.\nPolitics paper national direction main technology than play. Home vote rule assume charge issue. Analysis per place herself across.","estimatedTime":"8 weeks"}'

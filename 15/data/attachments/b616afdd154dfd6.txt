@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjUyOjExLjYzOTQxMiIsInVzZXJfaWQiOiI0YjRkMWRmNi1jN2QxLTRlMTMtOTU2OS0yMjYyYzZiNzU1YTkifQ.pJ3d2oCwa_EFzPbbpel1tU8hsO2jNZW2pLNa2jOlMfk' \
+ -H 'content-length: 362' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Property throw behind whatever create.","maxScore":80,"minScore":23,"description":"Beautiful space down them avoid. Realize big cost explain these.\nLook add pay attack scene. Prepare national more should middle.","estimatedTime":"6 weeks","previewFileId":"a7405e21-a438-45de-ba4d-9887071e015d","createdByUserId":"4b4d1df6-c7d1-4e13-9569-2262c6b755a9"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjUyOjEwLjQ5NzE0MiIsInVzZXJfaWQiOiI2ZjIxN2IyNy03MzY1LTQ3NDctOTIwZC0wYzY3MjEyZDhlNzkifQ.sA8wy_7DwM2ctydvEGRxpUslCJ8-FnF_kXFeVrEpgs0' \
+ -H 'content-length: 389' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Plant spend environment.","maxScore":94,"minScore":8,"description":"Thus population hit the style check officer. Spring treatment follow time upon under. Community less find any husband than environmental teach. Approach black their other.","estimatedTime":"4 weeks","previewFileId":"972893f1-dd9a-4da9-bede-077c865971b4","createdByUserId":"6f217b27-7365-4747-920d-0c67212d8e79"}'

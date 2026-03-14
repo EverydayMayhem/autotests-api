@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjUyOjExLjkxMzAxMSIsInVzZXJfaWQiOiIyYmEwNTc1OS0xOTA3LTRhZDctOGZmYy0yOTQzMDQzMTMwNGIifQ.ABiQ2ufYqVRbGtgCGc9xc37kCexuGVjwoee8v-wxNeg' \
+ -H 'content-length: 431' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Believe sit treat seven pattern never develop.","maxScore":67,"minScore":22,"description":"Enter close something investment inside plan two citizen. Thus team hand quickly bill. Rule second few night begin method next.\nWith when new section can. Sea film relationship name market.","estimatedTime":"9 weeks","previewFileId":"c4f81dfc-fe5a-47f8-b701-55d480852ea5","createdByUserId":"2ba05759-1907-4ad7-8ffc-29430431304b"}'

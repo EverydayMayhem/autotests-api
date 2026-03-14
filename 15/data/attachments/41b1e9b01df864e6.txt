@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjUyOjE0LjMwMTA5MSIsInVzZXJfaWQiOiJlNTg2ZGY0Yy01ZWE3LTQzNDQtOTBkNi0zNTcxNzZhZGZjYjkifQ.C2cglsXMuuEkOSOTtDWSkQKuJB3zhwijBg2QzXU3q6Q' \
+ -H 'content-length: 381' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Realize pressure market hair.","maxScore":89,"minScore":20,"description":"Enter machine center lawyer design option. Economy final him local peace. Public brother himself.\nSuddenly energy face or soon west. Kid interest knowledge.","estimatedTime":"9 weeks","previewFileId":"82051a98-f5ad-4ff3-9082-10af431ee39e","createdByUserId":"e586df4c-5ea7-4344-90d6-357176adfcb9"}'

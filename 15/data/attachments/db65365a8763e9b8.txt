@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjUyOjE0LjMwMTA5MSIsInVzZXJfaWQiOiJlNTg2ZGY0Yy01ZWE3LTQzNDQtOTBkNi0zNTcxNzZhZGZjYjkifQ.C2cglsXMuuEkOSOTtDWSkQKuJB3zhwijBg2QzXU3q6Q' \
+ -H 'content-length: 357' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Life home listen yes let.","courseId":"0a3fd593-f219-4a34-a46d-5564c2141925","maxScore":82,"minScore":9,"orderIndex":49,"description":"Recognize radio very leader character moment. Hear wait worry skill image wish property.\nAuthor personal often mind always avoid relate. Those agreement quite suddenly lose sing page.","estimatedTime":"4 weeks"}'

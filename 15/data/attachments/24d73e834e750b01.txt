@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjUyOjE0LjAyNjkwNCIsInVzZXJfaWQiOiIwNGI2NjU3Yy1jN2I5LTQyZmUtYjZkYS1lMTYwNDBhNzcwNDMifQ.4IghN_QRrUEszJiz-orC9J6LRDu7uw1ydiFi_NXT5HE' \
+ -H 'content-length: 408' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Eight really worry open.","maxScore":62,"minScore":30,"description":"Reveal adult meeting market church effort these. Look two matter majority image note. Only example image everybody need land federal.\nThrow challenge stage record. Maintain ability ok new.","estimatedTime":"2 weeks","previewFileId":"751db0dc-ac6c-4f05-a8a1-dafc53f20999","createdByUserId":"04b6657c-c7b9-42fe-b6da-e16040a77043"}'
