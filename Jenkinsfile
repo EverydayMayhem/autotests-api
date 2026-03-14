@@ -3,15 +3,17 @@ pipeline {
         label 'python-agent'
     }
 
-    environment {
-        HTTP_CLIENT__URL = "http://test-server:8000"
-    }
-
     stages {
         stage('Checkout') {
             steps {
                 git branch: 'main',
                     url: 'https://github.com/EverydayMayhem/autotests-api'
+            }
+        }
+
+	stage('Prepare environment') {
+            steps {
+                sh 'cp .env.ci .env'
             }
         }
 
