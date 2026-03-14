@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjA1OjAwLjQ5ODkxMSIsInVzZXJfaWQiOiI5MzFhNTdmMC0xNjMyLTRlNjItOTllYy1jMzc5MDIxOTQ5NDYifQ.0eE8e4crUchaBS44U-d6A9Zrwq2V2uTQOoMUbm6r5pY' \
+ -H 'content-length: 401' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Resource give pressure stop television social.","maxScore":73,"minScore":1,"description":"Between detail own Mrs nature these from.\nPage start candidate significant key medical. Maybe arrive truth data month less chance. Moment store media air carry.","estimatedTime":"7 weeks","previewFileId":"a07d3959-4af1-4edf-8929-2ee2d6e2550e","createdByUserId":"931a57f0-1632-4e62-99ec-c37902194946"}'

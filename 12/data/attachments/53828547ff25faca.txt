@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/courses?userId=89cbec34-d3e6-4d03-a4a9-6ce263ffe96b
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=89cbec34-d3e6-4d03-a4a9-6ce263ffe96b
+INFO     BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:74 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:65 "Assert that "courses" is 1 length
+INFO     COURSES_ASSERTIONS:courses.py:49 Check course
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals 4f1d6810-23bf-405b-b6fd-e794117a07bd
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "title" equals Trial see defense read.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 98
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 2
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "description" equals Four call lose message little type. Social we prove contain. Nor even along space magazine theory. Throughout research job meet whom.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 6 weeks
+INFO     FILE_ASSERTIONS:files.py:37 Check file
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals 39424486-65fe-445e-9555-f12a4327471a
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "directory" equals tests
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "filename" equals a3c37d3a-5067-4518-91ef-762447e90eaa.png
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "url" equals http://localhost:8000/static/tests/a3c37d3a-5067-4518-91ef-762447e90eaa.png
+INFO     USERS_ASSERTIONS:users.py:36 Check users
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals 89cbec34-d3e6-4d03-a4a9-6ce263ffe96b
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "email" equals jennifer50@example.org
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "first_name" equals Kevin
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "last_name" equals Eaton
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "middle_name" equals Joshua
+INFO     SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

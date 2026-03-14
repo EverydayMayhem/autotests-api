@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjA0OjU3LjE3MTM2MyIsInVzZXJfaWQiOiJkYmZmNjE2OS0yZmFlLTQwYTUtOTRhZC1iYmE3YmQzOTQxMmQifQ.eUAn76MqzUG6ns38NTApUlNRdYgpqbRcz0gvSz2YhzM' \
+ -H 'content-length: 304' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Similar community new crime vote.","maxScore":82,"minScore":2,"description":"Program drive prove your alone work. Agent trip food turn improve fall dream.","estimatedTime":"7 weeks","previewFileId":"06d92af5-1d1c-439d-8b13-dbcf233a3a78","createdByUserId":"dbff6169-2fae-40a5-94ad-bba7bd39412d"}'

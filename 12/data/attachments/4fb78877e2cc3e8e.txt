@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjA0OjU2Ljg5NzU4MyIsInVzZXJfaWQiOiJiOTdlOWJhNC0xM2VjLTQ2YTItODA4Mi0zODBkNjA2MjA4NjMifQ.rfuPFCuZ7agyKZoCsB20icDUYhyLF3ctNDd6-kgO010' \
+ -H 'content-length: 454' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Audience environment professional listen during floor drive.","maxScore":68,"minScore":8,"description":"Speak people term only news television. Where plant have clearly although baby will. Person suddenly all charge west.\nGrowth center off their purpose get industry start. Book past discover war image.","estimatedTime":"6 weeks","previewFileId":"95405990-7352-4cda-8f21-c4cbc93daeca","createdByUserId":"b97e9ba4-13ec-46a2-8082-380d60620863"}'

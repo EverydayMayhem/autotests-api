@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjA0OjU5LjU1MzAxMSIsInVzZXJfaWQiOiJkNTIxYzU0Ni1hNzg2LTQ2ODAtYTE5Mi02MjU4YTZjZmI3OTUifQ.5YNv7fgISzz2TyQyNmxY8QBLHNuwqWZGtRTG1OVhGVU' \
+ -H 'content-length: 406' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Go over evening our interest value.","maxScore":96,"minScore":12,"description":"Wind than might conference soon brother TV strategy. Body goal size wait call outside use.\nFight property about evening candidate. But push tree wrong individual reach answer.","estimatedTime":"5 weeks","previewFileId":"abbd01e9-65fb-45dd-a462-f490cbb29537","createdByUserId":"d521c546-a786-4680-a192-6258a6cfb795"}'

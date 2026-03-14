@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjA0OjU1Ljc1NDg4MSIsInVzZXJfaWQiOiI4OWNiZWMzNC1kM2U2LTRkMDMtYTRhOS02Y2UyNjNmZmU5NmIifQ.L8jI--rQoy2C8BGkpmxtTdRgOgs87pkPGWzgG1xaCEo' \
+ -H 'content-length: 350' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Trial see defense read.","maxScore":98,"minScore":2,"description":"Four call lose message little type. Social we prove contain. Nor even along space magazine theory. Throughout research job meet whom.","estimatedTime":"6 weeks","previewFileId":"39424486-65fe-445e-9555-f12a4327471a","createdByUserId":"89cbec34-d3e6-4d03-a4a9-6ce263ffe96b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjA0OjU4LjM2MDIyMSIsInVzZXJfaWQiOiIyMWU1YTdmNy04NzU1LTQ2ZTEtYTg3MC0wYWQyZjZjYmFhMmMifQ.URik8HxjoSsStz9XE6GB0xDGqKxnMgxfwgoKcb-Rq7o' \
+ -H 'content-length: 399' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Type although another.","maxScore":95,"minScore":18,"description":"Third argue notice him her free shake. His western site not history both painting.\nRecent affect series receive. Question sit story well chance one. Summer particularly happy order.","estimatedTime":"8 weeks","previewFileId":"a543b966-99b7-4413-9dbf-9703a236bf67","createdByUserId":"21e5a7f7-8755-46e1-a870-0ad2f6cbaa2c"}'
