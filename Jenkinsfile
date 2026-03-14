@@ -12,10 +12,11 @@ pipeline {
         }
 
 	stage('Prepare environment') {
-            steps {
-                sh 'cp .env.ci .env'
-            }
-        }
+	    steps {
+	        sh 'cp .env.ci .env'
+	        sh 'cat .env'
+	    }
+	}
 
         stage('Install dependencies') {
             steps {
