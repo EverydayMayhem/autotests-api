@@ -3,6 +3,14 @@ pipeline {
         label 'python-agent'
     }
 
+    parameters {
+        string(
+            name: 'TEST_PATH',
+            defaultValue: 'tests/',
+            description: 'Путь к тестам, например tests/users'
+        )
+    }
+
     stages {
         stage('Checkout') {
             steps {
@@ -26,7 +34,7 @@ pipeline {
 
         stage('Run tests') {
             steps {
-                sh 'python3 -m pytest -m regression'
+                sh 'python3 -m pytest -m regression -n 4'
             }
         }
     }
