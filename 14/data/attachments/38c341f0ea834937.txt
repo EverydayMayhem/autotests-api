@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjQ5OjM3LjQ2Mjg3OSIsInVzZXJfaWQiOiIxNWNmNmJlZi01NWVjLTRjY2YtYjM0NS0xOTIzOTJlZjVjMWMifQ.KMzj3QfT1hVBjTALQEr76gcJFKGKix7J2J28Gp66nKA' \
+ -H 'content-length: 400' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Road south however I today while.","maxScore":58,"minScore":28,"description":"Time class the build model pattern list. Benefit because as glass. Statement president different name question church space. Daughter whole prevent church expect analysis.","estimatedTime":"10 weeks","previewFileId":"1d4ab168-c143-4521-b56f-fa40b9417c36","createdByUserId":"15cf6bef-55ec-4ccf-b345-192392ef5c1c"}'

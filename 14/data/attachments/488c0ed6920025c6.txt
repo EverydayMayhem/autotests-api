@@ -1,0 +1,34 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/courses?userId=ad51b807-d239-4828-8de9-c1325d9032bb
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=ad51b807-d239-4828-8de9-c1325d9032bb
+INFO     BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:74 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:65 "Assert that "courses" is 1 length
+INFO     COURSES_ASSERTIONS:courses.py:49 Check course
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals d99ad0be-13da-48c0-9af6-385115ac818a
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "title" equals Scene significant between old pretty.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 57
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 22
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "description" equals Today direction police few wait investment machine. Beyond production rock successful human too special.
+Unit low only three good drive.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 8 weeks
+INFO     FILE_ASSERTIONS:files.py:37 Check file
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals e7f3d1dc-2dab-4f1d-87f0-f61948fe7ff7
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "directory" equals tests
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "filename" equals 27e027f3-3b62-4f4b-9b1a-d6342c473c1a.png
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "url" equals http://localhost:8000/static/tests/27e027f3-3b62-4f4b-9b1a-d6342c473c1a.png
+INFO     USERS_ASSERTIONS:users.py:36 Check users
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals ad51b807-d239-4828-8de9-c1325d9032bb
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "email" equals christina63@example.org
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "first_name" equals Joshua
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "last_name" equals Daniels
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "middle_name" equals Michael
+INFO     SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

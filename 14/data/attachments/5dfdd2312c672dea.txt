@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjQ5OjMyLjcwODY1OSIsInVzZXJfaWQiOiJhZDUxYjgwNy1kMjM5LTQ4MjgtOGRlOS1jMTMyNWQ5MDMyYmIifQ.uJQalLp0R9FXx5i30DPTwSAMPCRFSpNqD3dnlIao0xI' \
+ -H 'content-length: 369' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Scene significant between old pretty.","maxScore":57,"minScore":22,"description":"Today direction police few wait investment machine. Beyond production rock successful human too special.\nUnit low only three good drive.","estimatedTime":"8 weeks","previewFileId":"e7f3d1dc-2dab-4f1d-87f0-f61948fe7ff7","createdByUserId":"ad51b807-d239-4828-8de9-c1325d9032bb"}'

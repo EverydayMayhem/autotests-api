@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjQ5OjM2LjIzNzg1MSIsInVzZXJfaWQiOiJhM2UxZDg5Yi1iNDcwLTQ0MGItYmNhZS1iYzRjZjkwMDlkNjMifQ.etNjpL93Y_ZgsBi8xbcPXZd7Cd-xOsoC7WHSoUtc1vM' \
+ -H 'content-length: 290' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Involve customer purpose for member guess year.","courseId":"d6c3010d-4f2d-4db3-855e-ed41d5d572e7","maxScore":94,"minScore":29,"orderIndex":12,"description":"White offer case age ten success middle natural. Create international seem different specific.","estimatedTime":"7 weeks"}'

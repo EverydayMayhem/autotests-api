@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjQ5OjM1LjMyMTIwMyIsInVzZXJfaWQiOiI4ZjBmMTk0MS1jNzYyLTRlYjctOTNlYS01YWQzNmVhYzAzYWQifQ.woCiN8XavCFpgEX5hFDDfBB3GzAp_u-bodseybxQVIo' \
+ -H 'content-length: 366' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Task situation price attack.","maxScore":74,"minScore":16,"description":"Common teach reach threat field investment sense. Feel born always than evidence watch.\nWhere floor child pull. Deal church force benefit you.","estimatedTime":"2 weeks","previewFileId":"86c01e74-5dca-4d19-a64e-d3b4e6f1e091","createdByUserId":"8f0f1941-c762-4eb7-93ea-5ad36eac03ad"}'

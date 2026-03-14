@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjQ5OjM3LjQ2Mjg3OSIsInVzZXJfaWQiOiIxNWNmNmJlZi01NWVjLTRjY2YtYjM0NS0xOTIzOTJlZjVjMWMifQ.KMzj3QfT1hVBjTALQEr76gcJFKGKix7J2J28Gp66nKA' \
+ -H 'content-length: 346' \
+ -H 'content-type: application/json' \
+ -d '{"title":"However several lay young of everything.","courseId":"15ee4f0c-e30b-4665-bf9b-46677a46e3ec","maxScore":71,"minScore":1,"orderIndex":84,"description":"Group yeah think class present rich color. Magazine surface gun significant probably. Race hot some begin hotel. Style contain off take quickly member simple.","estimatedTime":"2 weeks"}'

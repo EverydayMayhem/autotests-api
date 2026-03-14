@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/fc0a8592-3903-4a40-beba-47a754a707a6' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjQ5OjMzLjg1MTQ5NiIsInVzZXJfaWQiOiIwMWJkYTViZS01NWU5LTQwZTgtYTBjNC0zZDJlMmI2OWJlMzAifQ.4BvPsFcveqbOFclT9HK26ARQB1nxunpEIdQzM9Aswvw' \
+ -H 'content-length: 200' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Chair drive production.","maxScore":79,"minScore":1,"description":"Maybe upon character probably discuss. Imagine will call. Against single common anything point.","estimatedTime":"3 weeks"}'
