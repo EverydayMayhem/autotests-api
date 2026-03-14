@@ -26,7 +26,7 @@ pipeline {
 
         stage('Run tests') {
             steps {
-                sh 'python3 -m pytest -m regression -n 4'
+                sh 'python3 -m pytest -m regression'
             }
         }
     }
