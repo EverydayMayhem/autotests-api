@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/exercises/919ce75e-6590-4282-a79a-b9dae070486b' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjU0OjA4Ljc5NzgyNyIsInVzZXJfaWQiOiIwODUyYjU5ZC1iOGMzLTRkYTUtOGM4Mi1kZDYyMzgwMWEyYTAifQ.17HBu0JWOS-NFvzMj7D2rUlCpRRMtETfd0D7qdCNwQI' \
+ -H 'content-length: 309' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Condition treatment someone put real.","maxScore":59,"minScore":13,"orderIndex":27,"description":"Window house care. Toward cost remember day. Employee artist source role like between.\nCompare between impact everyone environmental. Story take cultural return tend stuff.","estimatedTime":"6 weeks"}'

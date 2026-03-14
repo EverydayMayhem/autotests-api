@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/4fa32b74-ee06-4a33-856f-c27c81bb52da
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises/4fa32b74-ee06-4a33-856f-c27c81bb52da
+INFO     BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:54 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:34 Check exercise
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals 4fa32b74-ee06-4a33-856f-c27c81bb52da
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "title" equals Work decide political but above provide.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "course_id" equals efefdc35-151b-43bb-87b3-f3205b541504
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 54
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 25
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "order_index" equals 67
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "description" equals Step past sea. Treatment apply front information staff president allow. Statement I election most pattern.
+Can minute hope window. Sister end nothing oil into maybe face decide.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 3 weeks
+INFO     SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

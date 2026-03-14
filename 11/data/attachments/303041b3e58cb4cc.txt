@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjU0OjA4Ljc5NzgyNyIsInVzZXJfaWQiOiIwODUyYjU5ZC1iOGMzLTRkYTUtOGM4Mi1kZDYyMzgwMWEyYTAifQ.17HBu0JWOS-NFvzMj7D2rUlCpRRMtETfd0D7qdCNwQI' \
+ -H 'content-length: 379' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Culture technology remain citizen.","maxScore":83,"minScore":20,"description":"Fund deep name five day crime.\nDay compare fall nearly their mouth PM door. Quickly think I defense require can TV most. Cultural agree modern apply.","estimatedTime":"2 weeks","previewFileId":"69ed9509-5d05-4161-aefa-bf0988a9c5e0","createdByUserId":"0852b59d-b8c3-4da5-8c82-dd623801a2a0"}'

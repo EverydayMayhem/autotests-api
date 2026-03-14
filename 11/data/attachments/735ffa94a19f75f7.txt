@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjU0OjA3LjYwMTM4OCIsInVzZXJfaWQiOiIwZTdmNjZlYS04ZTlhLTQyZmYtYTNlOS01YzA1OWQ3OTNlZGUifQ.TvllOC1vdSa9O0F0TFpVse31JAXsdq8_vamNPBvMTzI' \
+ -H 'content-length: 348' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Suffer change court make.","maxScore":83,"minScore":13,"description":"Them recent check down money free gun. Two great stand individual though. Order book environment street compare determine issue.","estimatedTime":"6 weeks","previewFileId":"6ba853e0-83dd-4c43-8370-1bf6dba310a2","createdByUserId":"0e7f66ea-8e9a-42ff-a3e9-5c059d793ede"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/5a48b7fe-0921-4e24-81fd-e66e6973f324' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjU0OjA3LjMyNzU3MCIsInVzZXJfaWQiOiI4NmVjNmVmNy1jNzc4LTRjZmMtYTcwNy0wZTgxOWI5ZjAwZTQifQ.68E8OS0cptJtx6oNJ0DchuE49OxmRprxv7TpAZ1-47M' \
+ -H 'content-length: 302' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Order garden attorney visit.","maxScore":74,"minScore":17,"description":"Operation generation throw mission single. Weight hold with maintain eight hand. Return everything make great baby determine suggest.\nPeople look respond care board. Course out network lead.","estimatedTime":"7 weeks"}'

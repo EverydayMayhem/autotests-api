@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjU0OjA2LjE4MDQ4NyIsInVzZXJfaWQiOiI3MGU4ZGE1Mi05NWFiLTRkM2YtYjRkNC01Yzk2MWNmODVhOTAifQ.ve9zb8PyEsv_Nesbk0NIyFtRnzqab5SYfNvgl8XwvGo' \
+ -H 'content-length: 397' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Organization challenge test bit.","maxScore":98,"minScore":10,"description":"Myself program not agent all face prepare who. Condition evening think evidence most service risk.\nModel old help stuff. Whole force whole research.\nWithout then maybe.","estimatedTime":"4 weeks","previewFileId":"2386236b-8e87-4e87-a09f-17643c0a2662","createdByUserId":"70e8da52-95ab-4d3f-b4d4-5c961cf85a90"}'

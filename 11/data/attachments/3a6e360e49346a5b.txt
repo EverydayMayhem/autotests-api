@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjU0OjEwLjk1NTc4MyIsInVzZXJfaWQiOiI3OTk3MzQ2MS0wNzFhLTQ0MDYtOWFhZi0wZjhhNzU0MjFiOTEifQ.U2VUsdA9GcePKoevcRKuD_55S0ZkGCyS_OvAmk-6KdA' \
+ -H 'content-length: 285' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Sister again purpose city.","courseId":"52cfab27-395e-4b51-bfef-c19f40b4a07a","maxScore":73,"minScore":22,"orderIndex":66,"description":"Much picture international risk. Road garden late nor nearly marriage. Tell memory model well successful main.","estimatedTime":"9 weeks"}'

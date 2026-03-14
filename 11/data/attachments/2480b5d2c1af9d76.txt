@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjU0OjA5Ljk5NDYyNCIsInVzZXJfaWQiOiI4YzQ4YWNiOC1lOTc4LTQ4MDMtODliNS1lZjBlZDNkNDk4NzEifQ.7HLWrVDyoSsbr2wJR3Yfuvsg3CeH6984V2G1wQGGRSk' \
+ -H 'content-length: 393' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Well per throw raise control career.","maxScore":94,"minScore":19,"description":"Group call there face system cause mother young. Protect alone maybe remember together.\nTime create fly sell husband power. That center boy action nothing raise.","estimatedTime":"5 weeks","previewFileId":"23a99b13-6ae5-44a9-9c86-359a6c02f400","createdByUserId":"8c48acb8-e978-4803-89b5-ef0ed3d49871"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjU0OjA3LjMyNzU3MCIsInVzZXJfaWQiOiI4NmVjNmVmNy1jNzc4LTRjZmMtYTcwNy0wZTgxOWI5ZjAwZTQifQ.68E8OS0cptJtx6oNJ0DchuE49OxmRprxv7TpAZ1-47M' \
+ -H 'content-length: 431' \
+ -H 'content-type: application/json' \
+ -d '{"title":"East while professional least have store cell.","maxScore":74,"minScore":22,"description":"Four wide painting until school. Occur security president school information lawyer article exactly.\nSmile morning raise system watch adult near. Senior read meeting. Tax light find cause.","estimatedTime":"10 weeks","previewFileId":"f302d198-875a-495f-b09f-9982881972e3","createdByUserId":"86ec6ef7-c778-4cfc-a707-0e819b9f00e4"}'

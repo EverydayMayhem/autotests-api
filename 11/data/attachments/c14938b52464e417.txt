@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjU0OjA5LjcyMDUyMCIsInVzZXJfaWQiOiI0Nzk1N2VmMy00ZDMyLTRmMjAtYjQxMi0yMDUyYThlOGY3ZGEifQ.Gjk-NHlrBHRx4F9LXnp4_Czx3iuWB7C0S1FMlLEInnU' \
+ -H 'content-length: 359' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Manager them tell character field similar.","maxScore":69,"minScore":30,"description":"End agree word position bank. Challenge lay ever industry government important. Energy why newspaper door keep loss chair.","estimatedTime":"1 weeks","previewFileId":"ea273958-7875-449b-819e-4e515662f5fc","createdByUserId":"47957ef3-4d32-4f20-b412-2052a8e8f7da"}'

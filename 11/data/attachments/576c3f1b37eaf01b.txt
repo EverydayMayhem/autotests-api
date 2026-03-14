@@ -1,0 +1,35 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/courses?userId=70e8da52-95ab-4d3f-b4d4-5c961cf85a90
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=70e8da52-95ab-4d3f-b4d4-5c961cf85a90
+INFO     BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:74 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:65 "Assert that "courses" is 1 length
+INFO     COURSES_ASSERTIONS:courses.py:49 Check course
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals 1c90fbaa-5528-4254-9288-9ab494d08d7c
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "title" equals Organization challenge test bit.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 98
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 10
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "description" equals Myself program not agent all face prepare who. Condition evening think evidence most service risk.
+Model old help stuff. Whole force whole research.
+Without then maybe.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 4 weeks
+INFO     FILE_ASSERTIONS:files.py:37 Check file
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals 2386236b-8e87-4e87-a09f-17643c0a2662
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "directory" equals tests
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "filename" equals 67594a70-865f-4b11-8f3f-068636613c7e.png
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "url" equals http://localhost:8000/static/tests/67594a70-865f-4b11-8f3f-068636613c7e.png
+INFO     USERS_ASSERTIONS:users.py:36 Check users
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals 70e8da52-95ab-4d3f-b4d4-5c961cf85a90
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "email" equals emily38@example.com
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "first_name" equals Jay
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "last_name" equals Wilkins
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "middle_name" equals Valerie
+INFO     SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

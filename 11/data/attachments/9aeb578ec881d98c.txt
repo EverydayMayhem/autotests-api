@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE2OjU0OjEwLjk1NTc4MyIsInVzZXJfaWQiOiI3OTk3MzQ2MS0wNzFhLTQ0MDYtOWFhZi0wZjhhNzU0MjFiOTEifQ.U2VUsdA9GcePKoevcRKuD_55S0ZkGCyS_OvAmk-6KdA' \
+ -H 'content-length: 351' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Involve cell art development I back.","maxScore":95,"minScore":13,"description":"Listen agree example character health draw. Among indicate alone surface defense operation radio. Billion bag how adult.","estimatedTime":"7 weeks","previewFileId":"b6dffbc9-7e93-4686-a7f2-0c5dcdba4ac1","createdByUserId":"79973461-071a-4406-9aaf-0f8a75421b91"}'
