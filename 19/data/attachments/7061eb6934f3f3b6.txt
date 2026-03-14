@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE5OjI0OjMzLjcyMzcxOSIsInVzZXJfaWQiOiJlNzhlOTQ0Ny05ODExLTRmYWUtODczOS04MTYyYzk1MTM1YzgifQ.CYlvmeCimJ-P8_-mjDIfZSlCmoAQRuDR7U5RjeUKMQQ' \
+ -H 'content-length: 353' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Available economy treatment for.","maxScore":82,"minScore":21,"description":"Total recently identify television mention popular see. Cost gun church food citizen career war. Form partner style those off.","estimatedTime":"9 weeks","previewFileId":"e4666392-fa7b-4225-bb00-31e71608fb51","createdByUserId":"e78e9447-9811-4fae-8739-8162c95135c8"}'

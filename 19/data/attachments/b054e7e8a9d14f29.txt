@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE5OjI0OjMyLjI1NTM2NiIsInVzZXJfaWQiOiJiY2NlOTE4NS0xNDBlLTQ2MTItODExNS02NDE1MzUxMjY5YTIifQ._fwmYlNQgJnilfqEEcFOoGHwOVJGJirUnuPP7Kr2mjk' \
+ -H 'content-length: 433' \
+ -H 'content-type: application/json' \
+ -d '{"title":"War modern pick staff myself kitchen decide.","maxScore":54,"minScore":3,"description":"More Mrs over owner buy including. Early talk hand product value. Husband pressure nearly audience.\nBar him end card magazine. Bill place how true finish response ball. Continue mind chair know.","estimatedTime":"2 weeks","previewFileId":"39a09cd4-bd72-4d5f-88fc-533e3f4126eb","createdByUserId":"bcce9185-140e-4612-8115-6415351269a2"}'

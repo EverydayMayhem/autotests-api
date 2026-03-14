@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE5OjI0OjM0LjY3NjYwNiIsInVzZXJfaWQiOiI1MDkzMzdlMC1mOGQ0LTRiMDItYjZmYi0wMDNjYTBkNjVhMjkifQ.Pi6B9g3eRx2uxGRMSFh1uoz-qjve7aTiinBPLGCgK2s' \
+ -H 'content-length: 359' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Road amount air conference.","courseId":"e66e916c-21c9-4beb-ab3c-55216d71396c","maxScore":79,"minScore":27,"orderIndex":9,"description":"State cause article government wish one evidence. Statement any line year everyone avoid partner red.\nBag group can finally. Well word also that into entire. Fly tough because matter.","estimatedTime":"6 weeks"}'

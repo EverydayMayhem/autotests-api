@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/exercises/b2637a15-b2d4-4d13-8c4b-fe3542977c0d' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE5OjI0OjMyLjUzMDQ3NCIsInVzZXJfaWQiOiI3ODRiNGFkNy0yOTljLTQ3N2UtOWIwYy05Yzk2NjE2MzZlMDgifQ.aSdTM2Yk3B-pIG7jIzqT6A6Wzm-UjzZJtmv3WbpXK4Y' \
+ -H 'content-length: 330' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Consumer say now shoulder start traditional.","maxScore":52,"minScore":7,"orderIndex":5,"description":"Person during music. Available agent fine hospital. Soon stay prevent.\nDifferent ask big likely tree age. Well race voice ten ago father. Campaign decide experience on result score during.","estimatedTime":"2 weeks"}'

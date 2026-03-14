@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE5OjI0OjM0LjY3NjYwNiIsInVzZXJfaWQiOiI1MDkzMzdlMC1mOGQ0LTRiMDItYjZmYi0wMDNjYTBkNjVhMjkifQ.Pi6B9g3eRx2uxGRMSFh1uoz-qjve7aTiinBPLGCgK2s' \
+ -H 'content-length: 361' \
+ -H 'content-type: application/json' \
+ -d '{"title":"History financial true good agent so.","maxScore":54,"minScore":1,"description":"Late want he future father popular hundred hair. Pull team drive agree mother. Expert war structure company beyond language place.","estimatedTime":"9 weeks","previewFileId":"e58305da-d222-4aa1-afa9-c376cdb642ea","createdByUserId":"509337e0-f8d4-4b02-b6fb-003ca0d65a29"}'

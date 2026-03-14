@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE5OjI0OjMyLjUzMDQ3NCIsInVzZXJfaWQiOiI3ODRiNGFkNy0yOTljLTQ3N2UtOWIwYy05Yzk2NjE2MzZlMDgifQ.aSdTM2Yk3B-pIG7jIzqT6A6Wzm-UjzZJtmv3WbpXK4Y' \
+ -H 'content-length: 292' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Throw including full fast maintain.","maxScore":80,"minScore":24,"description":"Red understand address because. Machine require or know where.","estimatedTime":"1 weeks","previewFileId":"7fafba2c-74aa-487b-a73b-ec4f9f578af6","createdByUserId":"784b4ad7-299c-477e-9b0c-9c9661636e08"}'

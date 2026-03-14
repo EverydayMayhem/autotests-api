@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE5OjI0OjMzLjQ0OTUxMCIsInVzZXJfaWQiOiJlMjQ1Y2UwYS1kM2NjLTQ5ZGItOGRjYy1hMjIzMmNkMzRkM2YifQ.Hwrhn5CrSUNOKKlkXnHnX610XgB0sSS6eERK5LBh1l0' \
+ -H 'content-length: 400' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Appear small body movie stock story.","maxScore":90,"minScore":7,"description":"Door heart write cold TV fund myself. Thus start this condition strategy stage not environment.\nFeeling brother not visit agent notice. Together explain leave financial.","estimatedTime":"3 weeks","previewFileId":"ded6fc1d-3b06-4c0e-9345-42ebae1e67f3","createdByUserId":"e245ce0a-d3cc-49db-8dcc-a2232cd34d3f"}'

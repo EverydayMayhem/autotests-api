@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises?courseId=e66e916c-21c9-4beb-ab3c-55216d71396c
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=e66e916c-21c9-4beb-ab3c-55216d71396c
+INFO     BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:123 Check get all exercises response
+INFO     BASE_ASSERTIONS:base.py:65 "Assert that "exercises" is 1 length
+INFO     EXERCISES_ASSERTIONS:exercises.py:34 Check exercise
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "id" equals 2e6bce6c-4a9c-47e5-9206-6cb98e55ff53
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "title" equals Road amount air conference.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "course_id" equals e66e916c-21c9-4beb-ab3c-55216d71396c
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 79
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 27
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "order_index" equals 9
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "description" equals State cause article government wish one evidence. Statement any line year everyone avoid partner red.
+Bag group can finally. Well word also that into entire. Fly tough because matter.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 6 weeks
+INFO     SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

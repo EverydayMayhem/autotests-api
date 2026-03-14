@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE5OjI0OjMxLjA1NzIzMCIsInVzZXJfaWQiOiIxOTQ4ZTc0Zi0yMjAwLTRiZmEtODdkOS1iMmYxOTE2NTUxMTIifQ.dOjPIH0GPRYshmlhkjCze-oPlbtJW6i6DsJNm6EE9dY' \
+ -H 'content-length: 392' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Young painting past.","maxScore":92,"minScore":2,"description":"Without relate real each fish attack. Computer see notice.\nNotice benefit realize control future. Program you big foreign friend administration executive nor. Sing family case.","estimatedTime":"10 weeks","previewFileId":"606ba458-0849-4702-98c7-c7decb80ed60","createdByUserId":"1948e74f-2200-4bfa-87d9-b2f191655112"}'
