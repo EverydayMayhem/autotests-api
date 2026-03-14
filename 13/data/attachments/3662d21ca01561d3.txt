@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjEyOjU2Ljc3NjkzMiIsInVzZXJfaWQiOiJiM2UyMDM1NC02OTFjLTQxM2EtYjRhNS04MWY3ZTQxYjI4MzgifQ.ugVz8OPEsnMRddjkIvOu0UcVKddLGGo2-hYtjuVtWGo' \
+ -H 'content-length: 403' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Power reveal agree under push onto break.","maxScore":55,"minScore":24,"description":"Whatever often compare late great whatever follow soldier.\nLay where now it try century popular a. Not wait point nearly maybe their some. He record first community.","estimatedTime":"10 weeks","previewFileId":"1bf6c460-029f-4670-b42f-f7190f7fd253","createdByUserId":"b3e20354-691c-413a-b4a5-81f7e41b2838"}'

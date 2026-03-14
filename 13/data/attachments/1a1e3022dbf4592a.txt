@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/exercises/36ea67e6-5f49-4971-b259-7173c5dc2885' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjEyOjU1LjU4MTc1MCIsInVzZXJfaWQiOiJkMjA5Nzg5ZS03YjQ1LTQ5YzQtODllYS0xNDRiNDU3N2IyYmIifQ.2iGflHuj18nmbIiWguPQWGqziauD-cA94GF_GwLPnwI' \
+ -H 'content-length: 247' \
+ -H 'content-type: application/json' \
+ -d '{"title":"True pretty keep.","maxScore":89,"minScore":29,"orderIndex":11,"description":"Leg page one own six result. Mrs trial offer main conference than sometimes feel. Herself until during tell economy officer senior.","estimatedTime":"3 weeks"}'

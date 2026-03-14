@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Assert that status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:89 Check create course response
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "title" equals Cause security lead order fact likely according beyond.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "max_score" equals 94
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "min_score" equals 30
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "description" equals Boy clear director street about. Necessary type use determine produce.
+Would somebody conference happen director likely chair drive. Exactly west or positive.
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "estimated_time" equals 5 weeks
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "preview_file" equals 1575e3a9-bea4-49c4-9cc9-78af5b3f6011
+INFO     BASE_ASSERTIONS:base.py:33 Assert that "created_by_user" equals efab98ab-4f02-4aa6-b889-82abe19c46ad
+INFO     SCHEMA_ASSERTIONS:validate_json_schema.py:16 Validate JSON schema

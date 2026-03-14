@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjEyOjU1LjMwODExOCIsInVzZXJfaWQiOiIzNmFlYmNlOC1hMmVmLTQzMWMtOTgxYS1jNGE3NWQ1ZWU4OWIifQ.jB2IjVJ9-HzNvCn-7dcv7W6xhAlwjRuB5YFNDj2VBDs' \
+ -H 'content-length: 433' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Away capital garden program hour doctor.","maxScore":69,"minScore":8,"description":"Customer three from focus education thought. Nation no one million her forward. Yourself position pretty western see rise support opportunity.\nTen senior fly road effect cost teach. Play son civil.","estimatedTime":"10 weeks","previewFileId":"7f4971eb-571a-4015-bd4b-f57e439ac6dc","createdByUserId":"36aebce8-a2ef-431c-981a-c4a75d5ee89b"}'

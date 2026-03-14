@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/bf910a52-22ce-4ef8-b998-17c6f851c05a' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjEyOjU0LjEwMjE2MiIsInVzZXJfaWQiOiIwMDIyZDNlOS1kZDU1LTRhZDItYmJlNy02NjViZTQ1MDQyNDgifQ.Le6sQa1No8XtoKCQZbM-nvbBPLtSxCEYnWz9u8xUkoQ' \
+ -H 'content-length: 266' \
+ -H 'content-type: application/json' \
+ -d '{"title":"End specific single month economy.","maxScore":69,"minScore":18,"description":"Read situation east social. Happen whatever author but system about official.\nTeam indicate dinner. Why employee employee Mrs continue before today.","estimatedTime":"4 weeks"}'

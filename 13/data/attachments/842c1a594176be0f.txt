@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjEyOjU1LjU4MTc1MCIsInVzZXJfaWQiOiJkMjA5Nzg5ZS03YjQ1LTQ5YzQtODllYS0xNDRiNDU3N2IyYmIifQ.2iGflHuj18nmbIiWguPQWGqziauD-cA94GF_GwLPnwI' \
+ -H 'content-length: 371' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Reason ready take firm.","maxScore":61,"minScore":24,"description":"Officer make send heavy watch sort after avoid. Study learn study particularly. Born Republican company yes sign.\nThreat act draw fish movement beyond.","estimatedTime":"10 weeks","previewFileId":"d77e1ba2-8a87-4bc8-85cd-7d3254d4d689","createdByUserId":"d209789e-7b45-49c4-89ea-144b4577b2bb"}'

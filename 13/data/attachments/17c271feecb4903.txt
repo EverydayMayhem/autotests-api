@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjEyOjU2LjUwMTUzMyIsInVzZXJfaWQiOiI1NWMzMjY0OC1jNTQzLTQzM2QtYmUwMC04MWY3ZTQxY2RkZWYifQ.Fa89T46CmqrShbkqOhRFal0xxGU7pkV-XiHfNVT8cak' \
+ -H 'content-length: 419' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Trial current along follow note letter.","maxScore":55,"minScore":19,"description":"Picture southern deal same region put. Fire detail simply able adult. Company before practice modern tell person question then.\nGrowth Republican room. Point carry such sea bill worry.","estimatedTime":"7 weeks","previewFileId":"d3b211ab-837d-4ed7-8940-212a69b99877","createdByUserId":"55c32648-c543-433d-be00-81f7e41cddef"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjEyOjU1LjU4MTc1MCIsInVzZXJfaWQiOiJkMjA5Nzg5ZS03YjQ1LTQ5YzQtODllYS0xNDRiNDU3N2IyYmIifQ.2iGflHuj18nmbIiWguPQWGqziauD-cA94GF_GwLPnwI' \
+ -H 'content-length: 369' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Field rule adult test some yeah price.","courseId":"f6075850-d373-487b-a602-c898035c53d8","maxScore":70,"minScore":5,"orderIndex":64,"description":"Fine score sister candidate. Themselves produce network of far it hundred. Because too floor.\nEffect ball central near loss. If late up bar particular write. Response my environment.","estimatedTime":"7 weeks"}'

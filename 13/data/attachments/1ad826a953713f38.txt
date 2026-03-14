@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjEyOjU2LjUwMTUzMyIsInVzZXJfaWQiOiI1NWMzMjY0OC1jNTQzLTQzM2QtYmUwMC04MWY3ZTQxY2RkZWYifQ.Fa89T46CmqrShbkqOhRFal0xxGU7pkV-XiHfNVT8cak' \
+ -H 'content-length: 334' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Me home successful choice everyone local thought idea.","courseId":"2a4a1f57-6c52-4646-82a0-924257e97ed0","maxScore":96,"minScore":4,"orderIndex":51,"description":"Assume attorney front appear law name good. Pull wait up individual best assume everybody.\nSend democratic believe section trouble.","estimatedTime":"7 weeks"}'

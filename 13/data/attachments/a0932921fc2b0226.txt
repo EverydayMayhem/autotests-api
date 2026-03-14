@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDE3OjEyOjU0LjEwMjE2MiIsInVzZXJfaWQiOiIwMDIyZDNlOS1kZDU1LTRhZDItYmJlNy02NjViZTQ1MDQyNDgifQ.Le6sQa1No8XtoKCQZbM-nvbBPLtSxCEYnWz9u8xUkoQ' \
+ -H 'content-length: 432' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Benefit read tell design consumer some.","maxScore":82,"minScore":6,"description":"Decade agree idea fly front pattern. Ground stay size impact she would identify. Industry door two close gas.\nTree much according. Identify region be deal require computer central.\nAdd anyone into.","estimatedTime":"4 weeks","previewFileId":"b0a2897b-bb38-4bee-85e0-41a30000d417","createdByUserId":"0022d3e9-dd55-4ad2-bbe7-665be4504248"}'
